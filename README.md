@@ -10,3 +10,4 @@ Statische Website für `wittmerappcare.ch`, vorbereitet für Cloudflare Pages.
 
 Vor dem Livegang bitte die Schreibweise des offiziellen Namens und alle
 Impressumsangaben final prüfen.
+"# wittmerappcare" 
