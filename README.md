@@ -1,13 +1,21 @@
 # Wittmer AppCare Website
 
-Statische Website für `wittmerappcare.ch`, vorbereitet für Cloudflare Pages.
+Statische Website für `wittmerappcare.ch`, veröffentlicht über Cloudflare Pages.
 
-## Deployment auf Cloudflare Pages
+## Cloudflare Pages
 
-- Build command: `exit 0`
+- Projekt: `wittmerappcare`
+- Produktionsbranch: `main`
+- Build command: leer
 - Build output directory: `.`
 - Root directory: Repository-Root
 
-Vor dem Livegang bitte die Schreibweise des offiziellen Namens und alle
-Impressumsangaben final prüfen.
-"# wittmerappcare" 
+Für diese Website ist kein separater Cloudflare Worker nötig. Das Pages-Projekt
+übernimmt Deployment, benutzerdefinierte Domains, Weiterleitungen und Header.
+
+## Domains und E-Mail
+
+- `wittmerappcare.ch` und `www.wittmerappcare.ch` dem Pages-Projekt zuweisen.
+- `www.wittmerappcare.ch` dauerhaft auf `https://wittmerappcare.ch` umleiten.
+- Cloudflare Email Routing für `kontakt@wittmerappcare.ch` aktivieren.
+- Die Zieladresse muss in Cloudflare bestätigt sein.

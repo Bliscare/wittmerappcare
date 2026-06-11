@@ -469,6 +469,11 @@ h3 {
     linear-gradient(180deg, var(--soft) 0%, #f4f9ff 100%);
 }
 
+.case-section + .case-section {
+  border-top: 0;
+  background: var(--white);
+}
+
 .case-layout,
 .profile-layout,
 .contact-layout {
@@ -574,6 +579,15 @@ h3 {
     var(--paper);
 }
 
+.not-found-main {
+  display: grid;
+  min-height: calc(100vh - 84px - 75px);
+  align-items: center;
+  background:
+    linear-gradient(180deg, #ffffff 0%, var(--paper) 60%),
+    var(--paper);
+}
+
 .legal-page {
   width: min(100% - 48px, 900px);
   margin: 0 auto;
@@ -591,6 +605,23 @@ h3 {
 
 .back-link:hover {
   border-color: currentColor;
+}
+
+.not-found-page {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.not-found-link {
+  display: inline-flex;
+  border-bottom: 1px solid currentColor;
+  color: var(--accent-dark);
+  font-size: 16px;
+  font-weight: 850;
+}
+
+.not-found-link:hover {
+  color: var(--accent);
 }
 
 .legal-page h1 {

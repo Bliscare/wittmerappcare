@@ -1,6 +1,6 @@
 const translations = {
   de: {
-    "nav.work": "Arbeiten",
+    "nav.work": "Projekte",
     "nav.profile": "Profil",
     "nav.contact": "Kontakt",
     "hero.kicker": "Portfolio / 2026",
@@ -13,7 +13,7 @@ const translations = {
     "hero.principle2.copy": "Ruhige Oberflächen mit eigenem Charakter.",
     "hero.principle3.label": "Sorgfalt",
     "hero.principle3.copy": "Bewusster Umgang mit Nutzen, Daten und Grenzen.",
-    "work.kicker": "Arbeiten",
+    "work.kicker": "Projekte",
     "work.title": "Projektindex",
     "work.one.title": "Bliscare",
     "work.one.copy":
@@ -27,16 +27,43 @@ const translations = {
     "work.third.title": "Kommendes Projekt",
     "work.third.copy": "Reservierter Platz für ein weiteres digitales Konzept.",
     "work.third.status": "In Planung",
-    "case.kicker": "Case 01",
-    "case.title": "Bliscare - Medikamente zu Hause besser im Griff.",
-    "case.copy":
-      "Bliscare dokumentiert, wie sich ein alltägliches, aber sensibles Thema in ein klares digitales Produkt übersetzen lässt. Die App hilft, Medikamente im Haushalt sichtbar und organisiert zu halten - ohne medizinische Ansprüche zu stellen.",
-    "case.fact1.label": "Aufgabe",
-    "case.fact1.value": "Übersicht schaffen, Vorbereitung erleichtern.",
-    "case.fact2.label": "Haltung",
-    "case.fact2.value": "Kein medizinisches Tool - klare Produktgrenzen von Anfang an.",
-    "case.fact3.label": "Status",
-    "case.fact3.value": "Demnächst verfügbar.",
+    "case1.kicker": "Projekt 01",
+    "case1.title": "Bliscare - Medikamente zu Hause besser im Griff.",
+    "case1.copy":
+      "Ein alltägliches Problem, das niemand sieht: Medikamente, die noch im Schrank liegen, werden beim Arzt neu verschrieben. Bliscare macht den eigenen Haushaltsbestand sichtbar - ohne Anmeldung, ohne Cloud, ohne medizinische Ansprüche.",
+    "case1.fact1.label": "Ursprung",
+    "case1.fact1.value":
+      "Die Idee kam nicht am Schreibtisch. Eine Freundin schaute sich Shelfcare an und stellte fest: Genau so etwas bräuchte es eigentlich für Medikamente. Viele werden unnötig neu abgegeben, weil niemand weiss, was zu Hause noch vorhanden ist. Dieser Hinweis war der Anfang von Bliscare.",
+    "case1.fact2.label": "Aufgabe",
+    "case1.fact2.value":
+      "Übersicht schaffen, ohne ein medizinisches Tool zu werden. Die App soll helfen, den Bestand im Haushalt sichtbar zu halten - für sich selbst, aber auch für Angehörige, die man mitverwaltet.",
+    "case1.fact3.label": "Zentrale Entscheidung",
+    "case1.fact3.value":
+      "Keine Anmeldung. Keine Cloud. Alle Daten bleiben lokal auf dem Gerät - bewusst, von Anfang an. Wer das Telefon wechselt, überträgt den Bestand per QR-Code.",
+    "case1.fact4.label": "Schwierigste Aufgabe",
+    "case1.fact4.value":
+      "Nicht zu viel zu wollen. Die eigentliche Arbeit bestand darin, schlank zu bleiben - und trotzdem eine Linie zu halten, die auch für ältere Nutzende verständlich ist.",
+    "case1.fact5.label": "Status",
+    "case1.fact5.value": "Demnächst im App Store und bei Google Play verfügbar.",
+    "case2.kicker": "Projekt 02",
+    "case2.title": "Shelfcare - immer wissen, was zu Hause noch da ist.",
+    "case2.copy":
+      "Ist die Pasta im Keller noch da? Muss ich Waschmittel kaufen? Shelfcare beantwortet diese Fragen, bevor man den Weg in den Keller macht oder vor dem Regal im Laden steht - mit einer einfachen, geteilten Bestandsübersicht für den Alltag.",
+    "case2.fact1.label": "Ursprung",
+    "case2.fact1.value":
+      "Die Idee kam aus dem Alltag: der Impuls, kurz nachzuschauen, ob etwas noch da ist - ohne den Weg in den Keller. Shelfcare war die erste App-Idee, zuerst als Web-App umgesetzt. Aus dem Feedback darauf entstand dann Bliscare.",
+    "case2.fact2.label": "Aufgabe",
+    "case2.fact2.value":
+      "Haushaltsvorräte übersichtlich halten - nach Ort, Menge und Ablaufdatum - und eine Einkaufsliste, die direkt mit dem Bestand zusammenspielt: Artikel abhaken, Bestand sofort wieder auffüllen.",
+    "case2.fact3.label": "Zentrale Entscheidung",
+    "case2.fact3.value":
+      "Was gehört in die Basis-, was in die Pro-Version? Der Barcode-Scanner, geteilte Haushalte und das Teilen einzelner Orte gehören in die Pro-Version. Geteilte Bestände erfordern eine Synchronisation: Wenn jemand einen Artikel abzieht, wird er bei allen Haushaltsmitgliedern sofort aktualisiert. Der eigene Zugriff auf diese Daten ist dabei kein Ziel.",
+    "case2.fact4.label": "Schwierigste Aufgabe",
+    "case2.fact4.value":
+      "Auch hier: schlank bleiben. Die eigentliche Disziplin lag darin, jedes Feature an seinem richtigen Ort zu platzieren - und den Kern nicht mit Optionen zu überladen.",
+    "case2.fact5.label": "Status",
+    "case2.fact5.value":
+      "In Entwicklung. Erscheint als mobile App für iOS und Android, mit Basis- und Pro-Version.",
     "profile.kicker": "Profil",
     "profile.bio":
       "Janine Wittmer arbeitet an der Schnittstelle von Produkt, Design und Technik - mit Fokus auf mobile Apps und digitale Werkzeuge für den Alltag.",
@@ -85,11 +112,18 @@ const translations = {
     "privacy.rights.title": "Ihre Rechte",
     "privacy.rights.copy":
       "Nach Massgabe des anwendbaren Datenschutzrechts können Sie Auskunft, Berichtigung, Löschung, Datenherausgabe oder Einschränkung der Bearbeitung verlangen sowie Widerspruch einlegen. Anfragen bitte an ",
+    "privacy.rights.authority":
+      "Sie können sich auch an den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) wenden.",
     "privacy.updated.title": "Stand",
     "privacy.updated.copy": "Juni 2026",
+    "notFound.meta.title": "Seite nicht gefunden | Wittmer AppCare",
+    "notFound.meta.description": "Die angeforderte Seite wurde nicht gefunden.",
+    "notFound.title": "Seite nicht gefunden.",
+    "notFound.copy": "Die angeforderte Adresse existiert nicht oder wurde verschoben.",
+    "notFound.back": "Zur Startseite",
   },
   en: {
-    "nav.work": "Work",
+    "nav.work": "Projects",
     "nav.profile": "Profile",
     "nav.contact": "Contact",
     "hero.kicker": "Portfolio / 2026",
@@ -102,7 +136,7 @@ const translations = {
     "hero.principle2.copy": "Calm interfaces with a distinct character.",
     "hero.principle3.label": "Care",
     "hero.principle3.copy": "Conscious handling of value, data, and boundaries.",
-    "work.kicker": "Work",
+    "work.kicker": "Projects",
     "work.title": "Project index",
     "work.one.title": "Bliscare",
     "work.one.copy":
@@ -116,16 +150,43 @@ const translations = {
     "work.third.title": "Upcoming project",
     "work.third.copy": "Reserved space for another digital concept.",
     "work.third.status": "In planning",
-    "case.kicker": "Case 01",
-    "case.title": "Bliscare - better control of medication at home.",
-    "case.copy":
-      "Bliscare documents how an everyday but sensitive topic can be translated into a clear digital product. The app helps keep medication at home visible and organized - without making medical claims.",
-    "case.fact1.label": "Task",
-    "case.fact1.value": "Create overview, make preparation easier.",
-    "case.fact2.label": "Approach",
-    "case.fact2.value": "Not a medical tool - clear product boundaries from the start.",
-    "case.fact3.label": "Status",
-    "case.fact3.value": "Coming soon.",
+    "case1.kicker": "Project 01",
+    "case1.title": "Bliscare - better control of medication at home.",
+    "case1.copy":
+      "An everyday problem that no one sees: medication still sitting in the cupboard is prescribed again at the doctor's office. Bliscare makes the household supply visible - without registration, without a cloud, and without medical claims.",
+    "case1.fact1.label": "Origin",
+    "case1.fact1.value":
+      "The idea did not begin at a desk. A friend looked at Shelfcare and said that something similar was needed for medication. Many products are dispensed again unnecessarily because no one knows what is still available at home. That observation became the starting point for Bliscare.",
+    "case1.fact2.label": "Task",
+    "case1.fact2.value":
+      "Create an overview without becoming a medical tool. The app should keep household supplies visible for users themselves and for relatives whose medication they help manage.",
+    "case1.fact3.label": "Key decision",
+    "case1.fact3.value":
+      "No registration. No cloud. All data stays locally on the device - deliberately, from the start. When changing phones, users transfer their inventory by QR code.",
+    "case1.fact4.label": "Hardest task",
+    "case1.fact4.value":
+      "Not trying to do too much. The real work was staying lean while maintaining an experience that remains understandable for older users.",
+    "case1.fact5.label": "Status",
+    "case1.fact5.value": "Coming soon to the App Store and Google Play.",
+    "case2.kicker": "Project 02",
+    "case2.title": "Shelfcare - always know what is still at home.",
+    "case2.copy":
+      "Is there still pasta in the cellar? Do I need to buy detergent? Shelfcare answers these questions before someone walks downstairs or stands in front of a shop shelf - with a simple shared household inventory.",
+    "case2.fact1.label": "Origin",
+    "case2.fact1.value":
+      "The idea came from everyday life: wanting to check whether something was still there without walking to the cellar. Shelfcare was the first app idea and was initially built as a web app. Feedback on it later led to Bliscare.",
+    "case2.fact2.label": "Task",
+    "case2.fact2.value":
+      "Keep household supplies organized by location, quantity, and expiry date, with a shopping list connected directly to inventory: check off an item and replenish the stock immediately.",
+    "case2.fact3.label": "Key decision",
+    "case2.fact3.value":
+      "What belongs in the Basic version and what belongs in Pro? The barcode scanner, shared households, and sharing individual locations belong in Pro. Shared inventories require synchronization: when one person removes an item, it updates immediately for every household member. Accessing that data ourselves is not a goal.",
+    "case2.fact4.label": "Hardest task",
+    "case2.fact4.value":
+      "Again, staying lean. The discipline was placing every feature where it belongs without overloading the core product with options.",
+    "case2.fact5.label": "Status",
+    "case2.fact5.value":
+      "In development. Planned as a mobile app for iOS and Android with Basic and Pro versions.",
     "profile.kicker": "Profile",
     "profile.bio":
       "Janine Wittmer works at the intersection of product, design, and technology - with a focus on mobile apps and digital tools for everyday life.",
@@ -174,11 +235,18 @@ const translations = {
     "privacy.rights.title": "Your rights",
     "privacy.rights.copy":
       "Subject to applicable data protection law, you may request access, correction, deletion, data disclosure, or restriction of processing, and object to processing. Please send requests to ",
+    "privacy.rights.authority":
+      "You may also contact the Swiss Federal Data Protection and Information Commissioner (FDPIC).",
     "privacy.updated.title": "Last updated",
     "privacy.updated.copy": "June 2026",
+    "notFound.meta.title": "Page not found | Wittmer AppCare",
+    "notFound.meta.description": "The requested page could not be found.",
+    "notFound.title": "Page not found.",
+    "notFound.copy": "The requested address does not exist or has been moved.",
+    "notFound.back": "Back to homepage",
   },
   fr: {
-    "nav.work": "Travaux",
+    "nav.work": "Projets",
     "nav.profile": "Profil",
     "nav.contact": "Contact",
     "hero.kicker": "Portfolio / 2026",
@@ -191,7 +259,7 @@ const translations = {
     "hero.principle2.copy": "Des interfaces calmes avec un caractère propre.",
     "hero.principle3.label": "Soin",
     "hero.principle3.copy": "Une approche attentive de l’utilité, des données et des limites.",
-    "work.kicker": "Travaux",
+    "work.kicker": "Projets",
     "work.title": "Index des projets",
     "work.one.title": "Bliscare",
     "work.one.copy":
@@ -205,16 +273,43 @@ const translations = {
     "work.third.title": "Projet à venir",
     "work.third.copy": "Emplacement réservé pour un autre concept numérique.",
     "work.third.status": "En préparation",
-    "case.kicker": "Étude 01",
-    "case.title": "Bliscare - mieux gérer les médicaments à domicile.",
-    "case.copy":
-      "Bliscare montre comment un sujet quotidien mais sensible peut devenir un produit numérique clair. L’app aide à garder les médicaments visibles et organisés à domicile - sans prétention médicale.",
-    "case.fact1.label": "Mission",
-    "case.fact1.value": "Créer une vue d’ensemble, faciliter la préparation.",
-    "case.fact2.label": "Approche",
-    "case.fact2.value": "Pas un outil médical - des limites produit claires dès le départ.",
-    "case.fact3.label": "Statut",
-    "case.fact3.value": "Bientôt disponible.",
+    "case1.kicker": "Projet 01",
+    "case1.title": "Bliscare - mieux gérer les médicaments à domicile.",
+    "case1.copy":
+      "Un problème quotidien que personne ne voit: des médicaments encore présents dans l’armoire sont prescrits à nouveau chez le médecin. Bliscare rend le stock du foyer visible - sans inscription, sans cloud et sans prétention médicale.",
+    "case1.fact1.label": "Origine",
+    "case1.fact1.value":
+      "L’idée n’est pas née devant un bureau. Une amie a regardé Shelfcare et a constaté qu’un outil similaire serait utile pour les médicaments. Beaucoup sont remis inutilement parce que personne ne sait ce qui est encore disponible à la maison. Cette remarque a marqué le début de Bliscare.",
+    "case1.fact2.label": "Mission",
+    "case1.fact2.value":
+      "Créer une vue d’ensemble sans devenir un outil médical. L’app doit rendre le stock du foyer visible, pour soi-même comme pour les proches dont on aide à gérer les médicaments.",
+    "case1.fact3.label": "Décision centrale",
+    "case1.fact3.value":
+      "Aucune inscription. Aucun cloud. Toutes les données restent localement sur l’appareil - volontairement, dès le départ. Lors d’un changement de téléphone, le stock est transféré par code QR.",
+    "case1.fact4.label": "Défi principal",
+    "case1.fact4.value":
+      "Ne pas vouloir en faire trop. Le véritable travail consistait à rester simple tout en conservant une logique compréhensible également pour les personnes plus âgées.",
+    "case1.fact5.label": "Statut",
+    "case1.fact5.value": "Bientôt disponible sur l’App Store et Google Play.",
+    "case2.kicker": "Projet 02",
+    "case2.title": "Shelfcare - toujours savoir ce qu’il reste à la maison.",
+    "case2.copy":
+      "Reste-t-il des pâtes à la cave? Faut-il acheter de la lessive? Shelfcare répond à ces questions avant de descendre à la cave ou de se retrouver devant le rayon du magasin - grâce à un inventaire partagé et simple.",
+    "case2.fact1.label": "Origine",
+    "case2.fact1.value":
+      "L’idée vient du quotidien: vouloir vérifier rapidement si quelque chose est encore disponible sans devoir aller à la cave. Shelfcare a été la première idée d’app, d’abord réalisée comme application web. Les retours reçus ont ensuite donné naissance à Bliscare.",
+    "case2.fact2.label": "Mission",
+    "case2.fact2.value":
+      "Organiser les provisions du foyer par lieu, quantité et date d’expiration, avec une liste de courses directement liée au stock: cocher un article et réapprovisionner immédiatement l’inventaire.",
+    "case2.fact3.label": "Décision centrale",
+    "case2.fact3.value":
+      "Que faut-il inclure dans la version Basic et dans la version Pro? Le scanner de codes-barres, les foyers partagés et le partage de lieux individuels appartiennent à la version Pro. Les stocks partagés nécessitent une synchronisation: lorsqu’une personne retire un article, la modification apparaît immédiatement chez tous les membres. Accéder nous-mêmes à ces données n’est pas un objectif.",
+    "case2.fact4.label": "Défi principal",
+    "case2.fact4.value":
+      "Ici aussi, rester simple. La discipline consistait à placer chaque fonctionnalité au bon endroit sans surcharger le cœur du produit.",
+    "case2.fact5.label": "Statut",
+    "case2.fact5.value":
+      "En développement. Prévue comme app mobile pour iOS et Android, avec versions Basic et Pro.",
     "profile.kicker": "Profil",
     "profile.bio":
       "Janine Wittmer travaille à l’intersection du produit, du design et de la technologie - avec un accent sur les apps mobiles et les outils numériques du quotidien.",
@@ -263,11 +358,18 @@ const translations = {
     "privacy.rights.title": "Vos droits",
     "privacy.rights.copy":
       "Conformément au droit applicable en matière de protection des données, vous pouvez demander l’accès, la rectification, la suppression, la remise de données ou la limitation du traitement, et vous opposer au traitement. Veuillez envoyer vos demandes à ",
+    "privacy.rights.authority":
+      "Vous pouvez également vous adresser au Préposé fédéral à la protection des données et à la transparence (PFPDT).",
     "privacy.updated.title": "État",
     "privacy.updated.copy": "Juin 2026",
+    "notFound.meta.title": "Page introuvable | Wittmer AppCare",
+    "notFound.meta.description": "La page demandée est introuvable.",
+    "notFound.title": "Page introuvable.",
+    "notFound.copy": "L’adresse demandée n’existe pas ou a été déplacée.",
+    "notFound.back": "Retour à l’accueil",
   },
   it: {
-    "nav.work": "Lavori",
+    "nav.work": "Progetti",
     "nav.profile": "Profilo",
     "nav.contact": "Contatto",
     "hero.kicker": "Portfolio / 2026",
@@ -280,7 +382,7 @@ const translations = {
     "hero.principle2.copy": "Interfacce calme con carattere riconoscibile.",
     "hero.principle3.label": "Cura",
     "hero.principle3.copy": "Attenzione consapevole a utilità, dati e confini.",
-    "work.kicker": "Lavori",
+    "work.kicker": "Progetti",
     "work.title": "Indice dei progetti",
     "work.one.title": "Bliscare",
     "work.one.copy":
@@ -294,16 +396,43 @@ const translations = {
     "work.third.title": "Progetto in arrivo",
     "work.third.copy": "Spazio riservato per un altro concetto digitale.",
     "work.third.status": "In pianificazione",
-    "case.kicker": "Caso 01",
-    "case.title": "Bliscare - medicinali a casa meglio sotto controllo.",
-    "case.copy":
-      "Bliscare mostra come un tema quotidiano ma sensibile possa diventare un prodotto digitale chiaro. L’app aiuta a mantenere i medicinali a casa visibili e organizzati - senza pretese mediche.",
-    "case.fact1.label": "Compito",
-    "case.fact1.value": "Creare una panoramica, facilitare la preparazione.",
-    "case.fact2.label": "Approccio",
-    "case.fact2.value": "Non uno strumento medico - confini di prodotto chiari fin dall’inizio.",
-    "case.fact3.label": "Stato",
-    "case.fact3.value": "Disponibile prossimamente.",
+    "case1.kicker": "Progetto 01",
+    "case1.title": "Bliscare - medicinali a casa meglio sotto controllo.",
+    "case1.copy":
+      "Un problema quotidiano che nessuno vede: medicinali ancora presenti nell’armadietto vengono prescritti di nuovo dal medico. Bliscare rende visibile la scorta domestica - senza registrazione, senza cloud e senza pretese mediche.",
+    "case1.fact1.label": "Origine",
+    "case1.fact1.value":
+      "L’idea non è nata alla scrivania. Un’amica ha guardato Shelfcare e ha osservato che qualcosa di simile sarebbe utile anche per i medicinali. Molti vengono consegnati nuovamente senza necessità perché nessuno sa cosa è ancora disponibile a casa. Questa osservazione ha dato inizio a Bliscare.",
+    "case1.fact2.label": "Compito",
+    "case1.fact2.value":
+      "Creare una panoramica senza diventare uno strumento medico. L’app deve rendere visibile la scorta domestica, per sé e per i familiari i cui medicinali vengono gestiti insieme.",
+    "case1.fact3.label": "Decisione centrale",
+    "case1.fact3.value":
+      "Nessuna registrazione. Nessun cloud. Tutti i dati restano localmente sul dispositivo - volutamente, fin dall’inizio. Quando si cambia telefono, la scorta viene trasferita tramite codice QR.",
+    "case1.fact4.label": "Sfida principale",
+    "case1.fact4.value":
+      "Non voler fare troppo. Il vero lavoro è stato restare essenziali mantenendo una logica comprensibile anche per le persone più anziane.",
+    "case1.fact5.label": "Stato",
+    "case1.fact5.value": "Prossimamente disponibile su App Store e Google Play.",
+    "case2.kicker": "Progetto 02",
+    "case2.title": "Shelfcare - sapere sempre cosa è ancora disponibile a casa.",
+    "case2.copy":
+      "C’è ancora pasta in cantina? Devo comprare il detersivo? Shelfcare risponde a queste domande prima di scendere in cantina o di trovarsi davanti allo scaffale del negozio - con una semplice panoramica condivisa delle scorte.",
+    "case2.fact1.label": "Origine",
+    "case2.fact1.value":
+      "L’idea è nata dalla vita quotidiana: voler controllare rapidamente se qualcosa è ancora disponibile senza andare in cantina. Shelfcare è stata la prima idea di app, inizialmente realizzata come web app. Dal feedback ricevuto è poi nata Bliscare.",
+    "case2.fact2.label": "Compito",
+    "case2.fact2.value":
+      "Tenere ordinate le scorte domestiche per luogo, quantità e data di scadenza, con una lista della spesa collegata direttamente all’inventario: spuntare un articolo e ripristinare subito la scorta.",
+    "case2.fact3.label": "Decisione centrale",
+    "case2.fact3.value":
+      "Cosa appartiene alla versione Basic e cosa alla Pro? Lo scanner di codici a barre, le famiglie condivise e la condivisione di singoli luoghi appartengono alla versione Pro. Le scorte condivise richiedono sincronizzazione: quando qualcuno rimuove un articolo, la modifica viene aggiornata subito per tutti i membri. Accedere direttamente a questi dati non è un obiettivo.",
+    "case2.fact4.label": "Sfida principale",
+    "case2.fact4.value":
+      "Anche qui, restare essenziali. La disciplina è stata collocare ogni funzione nel posto giusto senza sovraccaricare il nucleo del prodotto.",
+    "case2.fact5.label": "Stato",
+    "case2.fact5.value":
+      "In sviluppo. Prevista come app mobile per iOS e Android, con versioni Basic e Pro.",
     "profile.kicker": "Profilo",
     "profile.bio":
       "Janine Wittmer lavora all’incrocio tra prodotto, design e tecnologia - con focus su app mobili e strumenti digitali per la vita quotidiana.",
@@ -352,8 +481,15 @@ const translations = {
     "privacy.rights.title": "I tuoi diritti",
     "privacy.rights.copy":
       "In base alla normativa applicabile sulla protezione dei dati, puoi richiedere accesso, rettifica, cancellazione, consegna dei dati o limitazione del trattamento e opporti al trattamento. Invia le richieste a ",
+    "privacy.rights.authority":
+      "Puoi anche rivolgerti all'Incaricato federale della protezione dei dati e della trasparenza (IFPDT).",
     "privacy.updated.title": "Stato",
     "privacy.updated.copy": "Giugno 2026",
+    "notFound.meta.title": "Pagina non trovata | Wittmer AppCare",
+    "notFound.meta.description": "La pagina richiesta non è stata trovata.",
+    "notFound.title": "Pagina non trovata.",
+    "notFound.copy": "L’indirizzo richiesto non esiste o è stato spostato.",
+    "notFound.back": "Torna alla homepage",
   },
 };
 
