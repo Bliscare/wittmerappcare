@@ -861,3 +861,353 @@ h3 {
     flex-direction: column;
   }
 }
+
+/* Saldocare product page */
+.product-main {
+  background:
+    radial-gradient(circle at top left, rgba(18, 110, 232, 0.08), transparent 34%),
+    linear-gradient(180deg, #ffffff 0%, var(--paper) 58%),
+    var(--paper);
+}
+
+.product-hero {
+  border-bottom: 1px solid var(--line);
+}
+
+.product-hero-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.88fr) minmax(340px, 1.12fr);
+  gap: clamp(34px, 6vw, 88px);
+  align-items: end;
+  padding: clamp(48px, 8vw, 86px) 0 38px;
+}
+
+.product-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.product-back::before {
+  content: "\2190";
+  font-size: 13px;
+  line-height: 1;
+}
+
+.product-hero-copy,
+.product-hero-media {
+  min-width: 0;
+}
+
+.product-topline {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.product-icon-wrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-icon {
+  width: 76px;
+  height: 76px;
+  border-radius: 18px;
+  box-shadow: 0 18px 34px rgba(12, 28, 51, 0.16);
+}
+
+.product-lead {
+  max-width: 34rem;
+  color: var(--ink-soft);
+  font-size: 18px;
+  line-height: 1.72;
+  margin: 0 0 22px;
+}
+
+.product-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.product-meta span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  border: 1px solid rgba(18, 58, 104, 0.14);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.88);
+  padding: 0 14px;
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 760;
+}
+
+.product-hero-art {
+  width: 100%;
+  border-radius: 26px;
+  border: 1px solid rgba(18, 58, 104, 0.1);
+  box-shadow: 0 28px 70px rgba(10, 24, 46, 0.16);
+}
+
+.product-main .section {
+  padding: clamp(56px, 7vw, 88px) 0;
+}
+
+.product-main .section-intro {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  align-items: start;
+  margin-bottom: 28px;
+  padding: 0;
+}
+
+.product-main .section-intro .eyebrow {
+  margin-bottom: 0;
+}
+
+.product-main .section-intro h2 {
+  font-size: clamp(30px, 4.1vw, 52px);
+  line-height: 1.02;
+  max-width: none;
+  white-space: nowrap;
+}
+
+.product-grid,
+.product-screenshot-grid,
+.product-detail-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.product-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.product-card,
+.product-screenshot-card,
+.product-detail-card,
+.product-cta {
+  border: 1px solid rgba(18, 58, 104, 0.12);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 18px 42px rgba(13, 30, 52, 0.06);
+}
+
+.product-card,
+.product-detail-card {
+  padding: 24px;
+}
+
+.product-card h3,
+.product-detail-card h3 {
+  margin-bottom: 12px;
+  font-size: 24px;
+}
+
+.product-card p,
+.product-detail-card p,
+.product-screenshot-card p {
+  color: var(--ink-soft);
+  font-size: 17px;
+  line-height: 1.66;
+  margin-bottom: 0;
+}
+
+.product-label {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.product-number {
+  display: block;
+  margin-bottom: 10px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(28px, 3vw, 38px);
+  line-height: 1;
+}
+
+.product-screenshot-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.product-screenshot-card {
+  overflow: hidden;
+}
+
+.product-screenshot-card img {
+  width: 100%;
+  border-bottom: 1px solid rgba(18, 58, 104, 0.1);
+}
+
+.product-screenshot-copy {
+  padding: 20px 22px 22px;
+}
+
+.product-detail-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.product-cta {
+  padding: clamp(28px, 5vw, 38px);
+  background:
+    linear-gradient(135deg, rgba(16, 26, 39, 0.98) 0%, rgba(18, 58, 104, 0.96) 100%);
+  color: var(--paper);
+}
+
+.product-cta .eyebrow {
+  color: #8bd6ff;
+}
+
+.product-cta h2 {
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.product-cta p {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 17px;
+  line-height: 1.68;
+}
+
+.product-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.product-cta-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  border-radius: 999px;
+  background: var(--white);
+  padding: 0 20px;
+  color: var(--deep);
+  font-size: 14px;
+  font-weight: 850;
+}
+
+.product-cta-secondary {
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 14px;
+  font-weight: 760;
+}
+
+.product-cta-secondary:hover {
+  color: var(--white);
+}
+
+@media (max-width: 900px) {
+  .product-hero-layout,
+  .product-grid,
+  .product-screenshot-grid,
+  .product-detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-topline {
+    margin-bottom: 18px;
+  }
+}
+
+@media (max-width: 700px) {
+  .product-hero-layout {
+    gap: 22px;
+    padding-top: 24px;
+    padding-bottom: 28px;
+  }
+
+  .product-hero-copy {
+    order: 1;
+  }
+
+  .product-hero-media {
+    order: 2;
+  }
+
+  .product-back {
+    margin-bottom: 16px;
+    font-size: 13px;
+  }
+
+  .product-topline {
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+
+  .product-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+  }
+
+  .product-hero h1 {
+    font-size: clamp(44px, 14vw, 62px);
+    line-height: 0.95;
+  }
+
+  .product-lead {
+    max-width: none;
+    margin-bottom: 18px;
+  }
+
+  .product-meta {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: start;
+    gap: 8px;
+  }
+
+  .product-meta span {
+    min-height: 36px;
+    padding: 0 12px;
+  }
+
+  .product-hero-art {
+    border-radius: 22px;
+    box-shadow: 0 22px 48px rgba(10, 24, 46, 0.14);
+  }
+
+  .product-card,
+  .product-detail-card,
+  .product-screenshot-copy {
+    padding: 20px;
+  }
+
+  .product-main .section {
+    padding: 52px 0;
+  }
+
+  .product-main .section-intro {
+    gap: 8px;
+    margin-bottom: 22px;
+    padding: 0;
+  }
+
+  .product-main .section-intro h2 {
+    font-size: 36px;
+    white-space: normal;
+  }
+
+  .product-lead,
+  .product-card p,
+  .product-detail-card p,
+  .product-screenshot-card p,
+  .product-cta p {
+    font-size: 16px;
+    line-height: 1.62;
+  }
+}
