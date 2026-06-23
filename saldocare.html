@@ -40,13 +40,27 @@
       }
 
       .product-back {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
         margin-bottom: 20px;
+      }
+
+      .product-back::before {
+        content: "\2190";
+        font-size: 13px;
+        line-height: 1;
+      }
+
+      .product-hero-copy,
+      .product-hero-media {
+        min-width: 0;
       }
 
       .product-topline {
         display: flex;
-        align-items: end;
-        gap: 18px;
+        align-items: center;
+        gap: 14px;
         margin-bottom: 18px;
       }
 
@@ -107,7 +121,7 @@
         gap: 10px;
         align-items: start;
         margin-bottom: 28px;
-        padding: 0 24px;
+        padding: 0;
       }
 
       .product-main .section-intro .eyebrow {
@@ -268,18 +282,60 @@
 
       @media (max-width: 700px) {
         .product-hero-layout {
-          padding-top: 34px;
+          gap: 22px;
+          padding-top: 24px;
+          padding-bottom: 28px;
+        }
+
+        .product-hero-copy {
+          order: 1;
+        }
+
+        .product-hero-media {
+          order: 2;
+        }
+
+        .product-back {
+          margin-bottom: 16px;
+          font-size: 13px;
         }
 
         .product-topline {
-          gap: 14px;
-          margin-bottom: 16px;
+          gap: 12px;
+          margin-bottom: 14px;
         }
 
         .product-icon {
-          width: 58px;
-          height: 58px;
-          border-radius: 14px;
+          width: 52px;
+          height: 52px;
+          border-radius: 12px;
+        }
+
+        .product-hero h1 {
+          font-size: clamp(44px, 14vw, 62px);
+          line-height: 0.95;
+        }
+
+        .product-lead {
+          max-width: none;
+          margin-bottom: 18px;
+        }
+
+        .product-meta {
+          display: grid;
+          grid-template-columns: 1fr;
+          justify-items: start;
+          gap: 8px;
+        }
+
+        .product-meta span {
+          min-height: 36px;
+          padding: 0 12px;
+        }
+
+        .product-hero-art {
+          border-radius: 22px;
+          box-shadow: 0 22px 48px rgba(10, 24, 46, 0.14);
         }
 
         .product-card,
@@ -295,7 +351,7 @@
         .product-main .section-intro {
           gap: 8px;
           margin-bottom: 22px;
-          padding: 0 20px;
+          padding: 0;
         }
 
         .product-main .section-intro h2 {
@@ -333,7 +389,7 @@
     <main class="product-main">
       <section class="product-hero">
         <div class="container product-hero-layout">
-          <div>
+          <div class="product-hero-copy">
             <a class="back-link product-back" href="/#arbeiten">Zurück zur Projektübersicht</a>
             <div class="product-topline">
               <span class="product-icon-wrap">
@@ -354,7 +410,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="product-hero-media">
             <img
               class="product-hero-art"
               src="images/saldocare-hero.png"

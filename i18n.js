@@ -500,7 +500,7 @@ Object.assign(translations.de, {
   "work.third.status": "Im eigenen Einsatz",
   "work.third.link": "Zu Saldocare",
   "case3.kicker": "Projekt 03",
-  "case3.title": "Saldocare â€” Buchhaltung fÃ¼r Schweizer Einzelfirmen und KMU.",
+  "case3.title": "Saldocare - Buchhaltung fÃ¼r Schweizer Einzelfirmen und KMU.",
   "case3.copy":
     "Wer selbststÃ¤ndig arbeitet, braucht kein komplexes ERP â€” aber mehr als eine Excel-Tabelle. Saldocare ist eine Buchhaltungs-App, die speziell auf die Anforderungen Schweizer Einzelfirmen und kleiner KMU zugeschnitten ist: Ã¼bersichtlich, schweizkonform, mit allem was im Alltag wirklich gebraucht wird.",
   "case3.fact1.label": "Ursprung",
@@ -527,7 +527,7 @@ Object.assign(translations.en, {
   "work.third.status": "Used in-house",
   "work.third.link": "To Saldocare",
   "case3.kicker": "Project 03",
-  "case3.title": "Saldocare â€” accounting for Swiss sole proprietorships and SMEs.",
+  "case3.title": "Saldocare - accounting for Swiss sole proprietorships and SMEs.",
   "case3.copy":
     "Anyone working independently does not need a complex ERP â€” but does need more than an Excel spreadsheet. Saldocare is an accounting app tailored to the needs of Swiss sole proprietorships and small SMEs: clear, compliant with Swiss practice, and focused on what is genuinely needed in day-to-day work.",
   "case3.fact1.label": "Origin",
@@ -554,7 +554,7 @@ Object.assign(translations.fr, {
   "work.third.status": "UtilisÃ© en interne",
   "work.third.link": "Vers Saldocare",
   "case3.kicker": "Projet 03",
-  "case3.title": "Saldocare â€” comptabilitÃ© pour entreprises individuelles et PME suisses.",
+  "case3.title": "Saldocare - comptabilitÃ© pour entreprises individuelles et PME suisses.",
   "case3.copy":
     "Quand on travaille Ã  son compte, on n'a pas besoin d'un ERP complexe â€” mais de plus qu'un simple tableau Excel. Saldocare est une app de comptabilitÃ© conÃ§ue spÃ©cialement pour les besoins des entreprises individuelles et petites PME suisses: claire, conforme au contexte suisse et centrÃ©e sur ce qui est vraiment utile au quotidien.",
   "case3.fact1.label": "Origine",
@@ -581,7 +581,7 @@ Object.assign(translations.it, {
   "work.third.status": "In uso interno",
   "work.third.link": "Vai a Saldocare",
   "case3.kicker": "Progetto 03",
-  "case3.title": "Saldocare â€” contabilitÃ  per ditte individuali e PMI svizzere.",
+  "case3.title": "Saldocare - contabilitÃ  per ditte individuali e PMI svizzere.",
   "case3.copy":
     "Chi lavora in proprio non ha bisogno di un ERP complesso â€” ma di piÃ¹ di un semplice foglio Excel. Saldocare Ã¨ un'app contabile progettata appositamente per le esigenze delle ditte individuali e delle piccole PMI svizzere: chiara, conforme al contesto svizzero e focalizzata su ciÃ² che serve davvero nella pratica quotidiana.",
   "case3.fact1.label": "Origine",
