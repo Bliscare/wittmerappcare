@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="de-CH">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Saldocare | Wittmer AppCare</title>
+    <meta
+      name="description"
+      content="Saldocare ist eine Buchhaltungs-App für Schweizer Einzelfirmen und KMU: Buchungen, Kundenstamm, Rechnungen, Lohn und MWST-Export in einer ruhigen, klaren Oberfläche."
+    />
+    <meta property="og:title" content="Saldocare | Wittmer AppCare" />
+    <meta
+      property="og:description"
+      content="Buchhaltungs-App für Schweizer Einzelfirmen und KMU mit Fokus auf Übersicht, Kontrolle und schweizkonforme Abläufe."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://wittmerappcare.ch/saldocare" />
+    <meta property="og:image" content="https://wittmerappcare.ch/images/saldocare-hero.png" />
+    <link rel="canonical" href="https://wittmerappcare.ch/saldocare" />
+    <link rel="icon" href="images/saldocare-app-icon.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .product-main {
+        background:
+          radial-gradient(circle at top left, rgba(18, 110, 232, 0.08), transparent 34%),
+          linear-gradient(180deg, #ffffff 0%, var(--paper) 58%),
+          var(--paper);
+      }
+
+      .product-hero {
+        border-bottom: 1px solid var(--line);
+      }
+
+      .product-hero-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 0.88fr) minmax(340px, 1.12fr);
+        gap: clamp(34px, 6vw, 88px);
+        align-items: end;
+        padding: clamp(48px, 8vw, 86px) 0 38px;
+      }
+
+      .product-back {
+        margin-bottom: 20px;
+      }
+
+      .product-topline {
+        display: flex;
+        align-items: end;
+        gap: 18px;
+        margin-bottom: 18px;
+      }
+
+      .product-icon-wrap {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .product-icon {
+        width: 76px;
+        height: 76px;
+        border-radius: 18px;
+        box-shadow: 0 18px 34px rgba(12, 28, 51, 0.16);
+      }
+
+      .product-lead {
+        max-width: 34rem;
+        color: var(--ink-soft);
+        font-size: 18px;
+        line-height: 1.72;
+        margin: 0 0 22px;
+      }
+
+      .product-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .product-meta span {
+        display: inline-flex;
+        align-items: center;
+        min-height: 38px;
+        border: 1px solid rgba(18, 58, 104, 0.14);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.88);
+        padding: 0 14px;
+        color: var(--ink);
+        font-size: 13px;
+        font-weight: 760;
+      }
+
+      .product-hero-art {
+        width: 100%;
+        border-radius: 26px;
+        border: 1px solid rgba(18, 58, 104, 0.1);
+        box-shadow: 0 28px 70px rgba(10, 24, 46, 0.16);
+      }
+
+      .product-main .section {
+        padding: clamp(56px, 7vw, 88px) 0;
+      }
+
+      .product-main .section-intro {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        align-items: start;
+        margin-bottom: 28px;
+        padding: 0 24px;
+      }
+
+      .product-main .section-intro .eyebrow {
+        margin-bottom: 0;
+      }
+
+      .product-main .section-intro h2 {
+        font-size: clamp(30px, 4.1vw, 52px);
+        line-height: 1.02;
+        max-width: none;
+        white-space: nowrap;
+      }
+
+      .product-grid,
+      .product-screenshot-grid,
+      .product-detail-grid {
+        display: grid;
+        gap: 18px;
+      }
+
+      .product-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .product-card,
+      .product-screenshot-card,
+      .product-detail-card,
+      .product-cta {
+        border: 1px solid rgba(18, 58, 104, 0.12);
+        border-radius: 24px;
+        background: rgba(255, 255, 255, 0.94);
+        box-shadow: 0 18px 42px rgba(13, 30, 52, 0.06);
+      }
+
+      .product-card,
+      .product-detail-card {
+        padding: 24px;
+      }
+
+      .product-card h3,
+      .product-detail-card h3 {
+        margin-bottom: 12px;
+        font-size: 24px;
+      }
+
+      .product-card p,
+      .product-detail-card p,
+      .product-screenshot-card p {
+        color: var(--ink-soft);
+        font-size: 17px;
+        line-height: 1.66;
+        margin-bottom: 0;
+      }
+
+      .product-label {
+        display: inline-block;
+        margin-bottom: 10px;
+        color: var(--accent);
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+      }
+
+      .product-number {
+        display: block;
+        margin-bottom: 10px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(28px, 3vw, 38px);
+        line-height: 1;
+      }
+
+      .product-screenshot-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .product-screenshot-card {
+        overflow: hidden;
+      }
+
+      .product-screenshot-card img {
+        width: 100%;
+        border-bottom: 1px solid rgba(18, 58, 104, 0.1);
+      }
+
+      .product-screenshot-copy {
+        padding: 20px 22px 22px;
+      }
+
+      .product-detail-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .product-cta {
+        padding: clamp(28px, 5vw, 38px);
+        background:
+          linear-gradient(135deg, rgba(16, 26, 39, 0.98) 0%, rgba(18, 58, 104, 0.96) 100%);
+        color: var(--paper);
+      }
+
+      .product-cta .eyebrow {
+        color: #8bd6ff;
+      }
+
+      .product-cta h2 {
+        color: var(--white);
+        margin-bottom: 16px;
+      }
+
+      .product-cta p {
+        color: rgba(255, 255, 255, 0.82);
+        font-size: 17px;
+        line-height: 1.68;
+      }
+
+      .product-cta-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-top: 28px;
+      }
+
+      .product-cta-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 48px;
+        border-radius: 999px;
+        background: var(--white);
+        padding: 0 20px;
+        color: var(--deep);
+        font-size: 14px;
+        font-weight: 850;
+      }
+
+      .product-cta-secondary {
+        color: rgba(255, 255, 255, 0.86);
+        font-size: 14px;
+        font-weight: 760;
+      }
+
+      .product-cta-secondary:hover {
+        color: var(--white);
+      }
+
+      @media (max-width: 900px) {
+        .product-hero-layout,
+        .product-grid,
+        .product-screenshot-grid,
+        .product-detail-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .product-topline {
+          margin-bottom: 18px;
+        }
+      }
+
+      @media (max-width: 700px) {
+        .product-hero-layout {
+          padding-top: 34px;
+        }
+
+        .product-topline {
+          gap: 14px;
+          margin-bottom: 16px;
+        }
+
+        .product-icon {
+          width: 58px;
+          height: 58px;
+          border-radius: 14px;
+        }
+
+        .product-card,
+        .product-detail-card,
+        .product-screenshot-copy {
+          padding: 20px;
+        }
+
+        .product-main .section {
+          padding: 52px 0;
+        }
+
+        .product-main .section-intro {
+          gap: 8px;
+          margin-bottom: 22px;
+          padding: 0 20px;
+        }
+
+        .product-main .section-intro h2 {
+          font-size: 36px;
+          white-space: normal;
+        }
+
+        .product-lead,
+        .product-card p,
+        .product-detail-card p,
+        .product-screenshot-card p,
+        .product-cta p {
+          font-size: 16px;
+          line-height: 1.62;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/" aria-label="Wittmer AppCare Startseite">
+          <span>Wittmer AppCare</span>
+        </a>
+        <div class="header-actions">
+          <nav class="nav" aria-label="Hauptnavigation">
+            <a href="/#arbeiten">Projekte</a>
+            <a href="/#profil">Profil</a>
+            <a href="/#kontakt">Kontakt</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="product-main">
+      <section class="product-hero">
+        <div class="container product-hero-layout">
+          <div>
+            <a class="back-link product-back" href="/#arbeiten">Zurück zur Projektübersicht</a>
+            <div class="product-topline">
+              <span class="product-icon-wrap">
+                <img class="product-icon" src="images/saldocare-app-icon.png" alt="Saldocare Icon" />
+              </span>
+              <p class="eyebrow">Projekt 03 / 2026</p>
+            </div>
+            <h1>Saldocare</h1>
+            <p class="product-lead">
+              Buchhaltung für Schweizer Einzelfirmen und kleine KMU - ruhig gestaltet,
+              klar strukturiert und auf die Abläufe ausgerichtet, die im Alltag
+              wirklich gebraucht werden.
+            </p>
+            <div class="product-meta" aria-label="Produktmerkmale">
+              <span>Schweiz - CHF</span>
+              <span>Im eigenen Einsatz</span>
+              <span>Lokale Kontrolle der Daten</span>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class="product-hero-art"
+              src="images/saldocare-hero.png"
+              alt="Saldocare auf einem Laptop mit Buchhaltungsübersicht, Rechnungen und Finanzkennzahlen"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-intro">
+            <p class="eyebrow">Kompakt</p>
+            <h2>Wofür Saldocare gebaut wurde.</h2>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card">
+              <span class="product-label">Fokus</span>
+              <span class="product-number">Alltag</span>
+              <p>
+                Keine überladene ERP-Logik, sondern ein Arbeitswerkzeug für Buchungen,
+                Rechnungen, Kundenstamm, Lohn und Export in einem nachvollziehbaren Ablauf.
+              </p>
+            </article>
+
+            <article class="product-card">
+              <span class="product-label">Datenhaltung</span>
+              <span class="product-number">Kontrolle</span>
+              <p>
+                Zahlungseingänge werden bewusst manuell bestätigt. Backup und
+                Wiederherstellung laufen per Export - ohne unnötige Komplexität.
+              </p>
+            </article>
+
+            <article class="product-card">
+              <span class="product-label">Schweiz</span>
+              <span class="product-number">Kontext</span>
+              <p>
+                MWST-Auswertung, Lohnausweis-Entwurf, Rechnungsvorlagen und Exporte
+                orientieren sich an dem, was für Schweizer Einzelfirmen tatsächlich relevant ist.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section works-section">
+        <div class="container">
+          <div class="section-intro">
+            <p class="eyebrow">Einblick</p>
+            <h2>Wie die App im Einsatz aussieht.</h2>
+          </div>
+
+          <div class="product-screenshot-grid">
+            <article class="product-screenshot-card">
+              <img
+                src="images/saldocare-screen-overview.png"
+                alt="Saldocare Übersicht mit Kennzahlen, Projekten, letzten Buchungen und Rechnungsbereich"
+              />
+              <div class="product-screenshot-copy">
+                <h3>Übersicht</h3>
+                <p>
+                  Jahreskennzahlen, Projekte, letzte Buchungen und anstehende Rechnungen
+                  liegen in einer ruhigen Startansicht zusammen - ohne visuelle Unruhe.
+                </p>
+              </div>
+            </article>
+
+            <article class="product-screenshot-card">
+              <img
+                src="images/saldocare-screen-customers.png"
+                alt="Saldocare Kunden und Rechnungen mit Kundenliste, Filtern und Rechnungs-Arbeitsliste"
+              />
+              <div class="product-screenshot-copy">
+                <h3>Kunden &amp; Rechnungen</h3>
+                <p>
+                  Mehrere Kundenstämme, Import, Filter, Rechnungsstatus und die
+                  Arbeitsliste für Versand und Verbuchung bleiben in derselben Struktur verbunden.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-intro">
+            <p class="eyebrow">Funktionsumfang</p>
+            <h2>Was heute schon abgedeckt ist.</h2>
+          </div>
+
+          <div class="product-detail-grid">
+            <article class="product-detail-card">
+              <h3>Buchungen und Projekte</h3>
+              <p>
+                Einnahmen und Ausgaben lassen sich pro Jahr und Projekt auswerten.
+                Die Startseite zeigt sofort, was offen ist und wie sich Saldo,
+                Einnahmen und Ausgaben entwickeln.
+              </p>
+            </article>
+
+            <article class="product-detail-card">
+              <h3>Kundenstamm und Rechnungslauf</h3>
+              <p>
+                Rechnungen entstehen direkt aus dem Kundenbereich. Versand,
+                Fälligkeiten und die spätere Verbuchung als Einnahme bleiben im selben Ablauf.
+              </p>
+            </article>
+
+            <article class="product-detail-card">
+              <h3>Lohn und Dokumente</h3>
+              <p>
+                Lohnabrechnungen, Lohnausweis-Entwürfe und eigene Dokumentvorlagen
+                gehören ebenso dazu wie befüllbare Rechnungs-Templates als DOCX oder PDF.
+              </p>
+            </article>
+
+            <article class="product-detail-card">
+              <h3>Export und Sicherung</h3>
+              <p>
+                Jahresexporte als Excel, CSV oder Belege-ZIP sowie Backup und
+                Wiederherstellung per JSON helfen dabei, die eigenen Daten tragfähig mitzunehmen.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="product-cta">
+            <p class="eyebrow">Status</p>
+            <h2>Aktuell im eigenen Einsatz bei Wittmer AppCare.</h2>
+            <p>
+              Saldocare ist aus einem realen Bedarf entstanden und wird bereits im Alltag verwendet.
+              Für einen möglichen öffentlichen Release ist später eine Version mit Login,
+              Synchronisation und Abo-Modell vorgesehen.
+            </p>
+            <div class="product-cta-actions">
+              <a class="product-cta-link" href="mailto:kontakt@wittmerappcare.ch?subject=Interesse%20an%20Saldocare">
+                Interesse an Saldocare
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; 2026 Wittmer AppCare. Alle Rechte vorbehalten.</p>
+        <div class="footer-links">
+          <a href="/impressum">Impressum</a>
+          <a href="/datenschutz">Datenschutz</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
