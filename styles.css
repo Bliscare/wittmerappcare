@@ -72,12 +72,21 @@ img {
 .brand {
   display: inline-flex;
   align-items: center;
+  gap: 10px;
   color: var(--ink);
   font-size: 15px;
   font-weight: 850;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   white-space: nowrap;
+}
+
+.brand-mark {
+  width: 32px;
+  height: 32px;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 18px rgba(13, 30, 52, 0.1);
 }
 
 .header-actions {
