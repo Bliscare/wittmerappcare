@@ -497,7 +497,7 @@ Object.assign(translations.de, {
   "work.third.title": "Saldocare",
   "work.third.copy":
     "Buchhaltungs-App für Schweizer Einzelfirmen und KMU: Buchungen, Kundenstamm, Rechnungsgenerierung, Lohn und MWST-Export.",
-  "work.third.status": "Im eigenen Einsatz",
+  "work.third.status": "Intern im Einsatz",
   "work.third.link": "Zu Saldocare",
   "case3.kicker": "Projekt 03",
   "case3.title": "Saldocare - Buchhaltung für Schweizer Einzelfirmen und KMU.",
@@ -517,7 +517,7 @@ Object.assign(translations.de, {
     "MWST-Auswertung nach effektiver Methode (ESTV), Jahresexport mit MWST-Blatt pro Quartal, Lohnausweis-Entwurf für Arbeitnehmende und Freelancer, Rechnungsvorlagen als .docx oder PDF mit automatisch befüllten Platzhaltern.",
   "case3.fact5.label": "Status",
   "case3.fact5.value":
-    "Aktuell im eigenen Einsatz bei Wittmer AppCare. Für einen allfälligen Release ist eine Version mit Login, Synchronisation und Abo-Modell vorgesehen.",
+    "Aktuell intern im Einsatz bei Wittmer AppCare. Für einen allfälligen Release ist eine Version mit Login, Synchronisation und Abo-Modell vorgesehen.",
 });
 
 Object.assign(translations.en, {
@@ -662,12 +662,12 @@ Object.assign(translations.de, {
     "Buchhaltung für Schweizer Einzelfirmen und kleine KMU - ruhig gestaltet, klar strukturiert und auf die Abläufe ausgerichtet, die im Alltag wirklich gebraucht werden.",
   "saldocare.hero.metaAria": "Produktmerkmale",
   "saldocare.hero.meta.market": "Schweiz - CHF",
-  "saldocare.hero.meta.status": "Im eigenen Einsatz",
+  "saldocare.hero.meta.status": "Intern im Einsatz",
   "saldocare.hero.meta.control": "Lokale Kontrolle der Daten",
   "saldocare.hero.mediaAlt":
     "Saldocare auf einem Laptop mit Buchhaltungsübersicht, Rechnungen und Finanzkennzahlen",
   "saldocare.compact.kicker": "Kompakt",
-  "saldocare.compact.title": "Wofür Saldocare gebaut wurde.",
+  "saldocare.compact.title": "Wofür Saldocare entwickelt wurde.",
   "saldocare.compact.focus.label": "Fokus",
   "saldocare.compact.focus.value": "Alltag",
   "saldocare.compact.focus.body":
@@ -707,7 +707,7 @@ Object.assign(translations.de, {
   "saldocare.features.export.body":
     "Jahresexporte als Excel, CSV oder Belege-ZIP sowie Backup und Wiederherstellung per JSON helfen dabei, die eigenen Daten tragfähig mitzunehmen.",
   "saldocare.cta.kicker": "Status",
-  "saldocare.cta.title": "Aktuell im eigenen Einsatz bei Wittmer AppCare.",
+  "saldocare.cta.title": "Aktuell intern im Einsatz bei Wittmer AppCare.",
   "saldocare.cta.body":
     "Saldocare ist aus einem realen Bedarf entstanden und wird bereits im Alltag verwendet. Für einen möglichen öffentlichen Release ist später eine Version mit Login, Synchronisation und Abo-Modell vorgesehen.",
   "saldocare.cta.link": "Interesse an Saldocare",
