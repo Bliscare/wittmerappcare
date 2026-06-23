@@ -66,7 +66,7 @@
       "In Entwicklung. Erscheint als mobile App für iOS und Android, mit Basis- und Pro-Version.",
     "profile.kicker": "Profil",
     "profile.bio":
-      "Janine Wittmer arbeitet an der Schnittstelle von Produkt, Design und Technik - mit Fokus auf mobile Apps und digitale Werkzeuge für den Alltag.",
+      "Janine Wittmer arbeitet an der Schnittstelle von Produkt, Design und Technik - mit Fokus auf mobile Apps und digitale Werkzeuge für den Alltag. Gelernte Medizinische Praxisassistentin und seit Jahren als Cabin Crew bei SWISS - die Apps entstehen nebenbei, aber nicht nebenher.",
     "profile.copy1":
       "Der Anspruch ist, digitale Arbeiten zu schaffen, die nicht laut auftreten müssen, um nützlich zu sein: klare Informationsarchitektur, verständliche Abläufe und ein sorgsamer Umgang mit Daten.",
     "profile.copy2":

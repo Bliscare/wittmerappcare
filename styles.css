@@ -519,9 +519,39 @@ h3 {
   background: var(--paper);
 }
 
+.profile-heading {
+  display: grid;
+  align-content: start;
+  gap: 22px;
+}
+
+.profile-heading .eyebrow,
+.profile-heading h2 {
+  margin-bottom: 0;
+}
+
+.profile-photo {
+  width: 150px;
+  height: auto;
+  float: left;
+  margin: 3px 24px 12px 0;
+  aspect-ratio: 1;
+  border: 1px solid rgba(18, 58, 104, 0.13);
+  border-radius: 999px;
+  object-fit: cover;
+  object-position: center 42%;
+  box-shadow: 0 14px 28px rgba(13, 30, 52, 0.1);
+}
+
 .profile-text {
   border-left: 1px solid var(--line);
   padding-left: 30px;
+}
+
+.profile-text::after {
+  display: table;
+  clear: both;
+  content: "";
 }
 
 .profile-text p:last-child {
@@ -710,6 +740,11 @@ h3 {
   .profile-text {
     border-left: 0;
     padding-left: 0;
+  }
+
+  .profile-photo {
+    width: 136px;
+    margin-right: 18px;
   }
 
   .hero-principles {
