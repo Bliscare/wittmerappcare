@@ -649,6 +649,262 @@ Object.assign(translations.it, {
     "Pieno controllo dei propri dati. Gli incassi vengono confermati volutamente in modo manuale. Contrassegnare una fattura come pagata avvia la registrazione contabile. Backup e ripristino tramite export JSON.",
 });
 
+Object.assign(translations.de, {
+  "saldocare.meta.title": "Saldocare | Wittmer AppCare",
+  "saldocare.meta.description":
+    "Saldocare ist eine Buchhaltungs-App für Schweizer Einzelfirmen und KMU: Buchungen, Kundenstamm, Rechnungen, Lohn und MWST-Export in einer ruhigen, klaren Oberfläche.",
+  "saldocare.meta.ogDescription":
+    "Buchhaltungs-App für Schweizer Einzelfirmen und KMU mit Fokus auf Übersicht, Kontrolle und schweizkonforme Abläufe.",
+  "saldocare.back": "Zurück zur Projektübersicht",
+  "saldocare.hero.iconAlt": "Saldocare Icon",
+  "saldocare.kicker": "Projekt 03 / 2026",
+  "saldocare.lead":
+    "Buchhaltung für Schweizer Einzelfirmen und kleine KMU - ruhig gestaltet, klar strukturiert und auf die Abläufe ausgerichtet, die im Alltag wirklich gebraucht werden.",
+  "saldocare.hero.metaAria": "Produktmerkmale",
+  "saldocare.hero.meta.market": "Schweiz - CHF",
+  "saldocare.hero.meta.status": "Im eigenen Einsatz",
+  "saldocare.hero.meta.control": "Lokale Kontrolle der Daten",
+  "saldocare.hero.mediaAlt":
+    "Saldocare auf einem Laptop mit Buchhaltungsübersicht, Rechnungen und Finanzkennzahlen",
+  "saldocare.compact.kicker": "Kompakt",
+  "saldocare.compact.title": "Wofür Saldocare gebaut wurde.",
+  "saldocare.compact.focus.label": "Fokus",
+  "saldocare.compact.focus.value": "Alltag",
+  "saldocare.compact.focus.body":
+    "Keine überladene ERP-Logik, sondern ein Arbeitswerkzeug für Buchungen, Rechnungen, Kundenstamm, Lohn und Export in einem nachvollziehbaren Ablauf.",
+  "saldocare.compact.data.label": "Datenhaltung",
+  "saldocare.compact.data.value": "Kontrolle",
+  "saldocare.compact.data.body":
+    "Zahlungseingänge werden bewusst manuell bestätigt. Backup und Wiederherstellung laufen per Export - ohne unnötige Komplexität.",
+  "saldocare.compact.swiss.label": "Schweiz",
+  "saldocare.compact.swiss.value": "Kontext",
+  "saldocare.compact.swiss.body":
+    "MWST-Auswertung, Lohnausweis-Entwurf, Rechnungsvorlagen und Exporte orientieren sich an dem, was für Schweizer Einzelfirmen tatsächlich relevant ist.",
+  "saldocare.preview.kicker": "Einblick",
+  "saldocare.preview.title": "Wie die App im Einsatz aussieht.",
+  "saldocare.preview.overview.alt":
+    "Saldocare Übersicht mit Kennzahlen, Projekten, letzten Buchungen und Rechnungsbereich",
+  "saldocare.preview.overview.title": "Übersicht",
+  "saldocare.preview.overview.body":
+    "Jahreskennzahlen, Projekte, letzte Buchungen und anstehende Rechnungen liegen in einer ruhigen Startansicht zusammen - ohne visuelle Unruhe.",
+  "saldocare.preview.customers.alt":
+    "Saldocare Kunden und Rechnungen mit Kundenliste, Filtern und Rechnungs-Arbeitsliste",
+  "saldocare.preview.customers.title": "Kunden & Rechnungen",
+  "saldocare.preview.customers.body":
+    "Mehrere Kundenstämme, Import, Filter, Rechnungsstatus und die Arbeitsliste für Versand und Verbuchung bleiben in derselben Struktur verbunden.",
+  "saldocare.features.kicker": "Funktionsumfang",
+  "saldocare.features.title": "Was heute schon abgedeckt ist.",
+  "saldocare.features.bookings.title": "Buchungen und Projekte",
+  "saldocare.features.bookings.body":
+    "Einnahmen und Ausgaben lassen sich pro Jahr und Projekt auswerten. Die Startseite zeigt sofort, was offen ist und wie sich Saldo, Einnahmen und Ausgaben entwickeln.",
+  "saldocare.features.customers.title": "Kundenstamm und Rechnungslauf",
+  "saldocare.features.customers.body":
+    "Rechnungen entstehen direkt aus dem Kundenbereich. Versand, Fälligkeiten und die spätere Verbuchung als Einnahme bleiben im selben Ablauf.",
+  "saldocare.features.documents.title": "Lohn und Dokumente",
+  "saldocare.features.documents.body":
+    "Lohnabrechnungen, Lohnausweis-Entwürfe und eigene Dokumentvorlagen gehören ebenso dazu wie befüllbare Rechnungs-Templates als DOCX oder PDF.",
+  "saldocare.features.export.title": "Export und Sicherung",
+  "saldocare.features.export.body":
+    "Jahresexporte als Excel, CSV oder Belege-ZIP sowie Backup und Wiederherstellung per JSON helfen dabei, die eigenen Daten tragfähig mitzunehmen.",
+  "saldocare.cta.kicker": "Status",
+  "saldocare.cta.title": "Aktuell im eigenen Einsatz bei Wittmer AppCare.",
+  "saldocare.cta.body":
+    "Saldocare ist aus einem realen Bedarf entstanden und wird bereits im Alltag verwendet. Für einen möglichen öffentlichen Release ist später eine Version mit Login, Synchronisation und Abo-Modell vorgesehen.",
+  "saldocare.cta.link": "Interesse an Saldocare",
+});
+
+Object.assign(translations.en, {
+  "saldocare.meta.title": "Saldocare | Wittmer AppCare",
+  "saldocare.meta.description":
+    "Saldocare is an accounting app for Swiss sole proprietorships and SMEs: bookings, customer records, invoices, payroll, and VAT export in a calm, clear interface.",
+  "saldocare.meta.ogDescription":
+    "Accounting app for Swiss sole proprietorships and SMEs with a focus on clarity, control, and Swiss-compliant workflows.",
+  "saldocare.back": "Back to project overview",
+  "saldocare.hero.iconAlt": "Saldocare icon",
+  "saldocare.kicker": "Project 03 / 2026",
+  "saldocare.lead":
+    "Accounting for Swiss sole proprietorships and small SMEs - calmly designed, clearly structured, and built around the workflows that are genuinely needed in day-to-day work.",
+  "saldocare.hero.metaAria": "Product features",
+  "saldocare.hero.meta.market": "Switzerland - CHF",
+  "saldocare.hero.meta.status": "Used in-house",
+  "saldocare.hero.meta.control": "Local control of data",
+  "saldocare.hero.mediaAlt":
+    "Saldocare on a laptop with accounting overview, invoices, and financial metrics",
+  "saldocare.compact.kicker": "Compact",
+  "saldocare.compact.title": "What Saldocare was built for.",
+  "saldocare.compact.focus.label": "Focus",
+  "saldocare.compact.focus.value": "Everyday work",
+  "saldocare.compact.focus.body":
+    "Not overloaded ERP logic, but a working tool for bookings, invoices, customer records, payroll, and export in a flow that stays easy to follow.",
+  "saldocare.compact.data.label": "Data handling",
+  "saldocare.compact.data.value": "Control",
+  "saldocare.compact.data.body":
+    "Incoming payments are deliberately confirmed manually. Backup and restore run through export - without unnecessary complexity.",
+  "saldocare.compact.swiss.label": "Switzerland",
+  "saldocare.compact.swiss.value": "Context",
+  "saldocare.compact.swiss.body":
+    "VAT evaluation, draft salary certificates, invoice templates, and exports are aligned with what is actually relevant for Swiss sole proprietorships.",
+  "saldocare.preview.kicker": "Preview",
+  "saldocare.preview.title": "How the app looks in use.",
+  "saldocare.preview.overview.alt":
+    "Saldocare overview with metrics, projects, recent bookings, and invoice section",
+  "saldocare.preview.overview.title": "Overview",
+  "saldocare.preview.overview.body":
+    "Yearly metrics, projects, recent bookings, and upcoming invoices sit together on a calm start view - without visual noise.",
+  "saldocare.preview.customers.alt":
+    "Saldocare customers and invoices with customer list, filters, and invoice work queue",
+  "saldocare.preview.customers.title": "Customers & Invoices",
+  "saldocare.preview.customers.body":
+    "Multiple customer lists, import, filters, invoice status, and the workflow for sending and posting stay connected in one coherent structure.",
+  "saldocare.features.kicker": "Features",
+  "saldocare.features.title": "What is already covered today.",
+  "saldocare.features.bookings.title": "Bookings and projects",
+  "saldocare.features.bookings.body":
+    "Income and expenses can be evaluated by year and project. The start page immediately shows what is still open and how balance, income, and expenses are developing.",
+  "saldocare.features.customers.title": "Customer records and invoicing flow",
+  "saldocare.features.customers.body":
+    "Invoices are created directly from the customer area. Sending, due dates, and later posting as income remain part of the same workflow.",
+  "saldocare.features.documents.title": "Payroll and documents",
+  "saldocare.features.documents.body":
+    "Payroll statements, draft salary certificates, and custom document templates are included alongside fillable invoice templates as DOCX or PDF.",
+  "saldocare.features.export.title": "Export and backup",
+  "saldocare.features.export.body":
+    "Yearly exports as Excel, CSV, or receipt ZIP, plus backup and restore via JSON, help keep your own data portable and durable.",
+  "saldocare.cta.kicker": "Status",
+  "saldocare.cta.title": "Currently used internally at Wittmer AppCare.",
+  "saldocare.cta.body":
+    "Saldocare grew out of a real need and is already used in everyday work. For a possible public release, a later version with login, synchronization, and a subscription model is planned.",
+  "saldocare.cta.link": "Interested in Saldocare",
+});
+
+Object.assign(translations.fr, {
+  "saldocare.meta.title": "Saldocare | Wittmer AppCare",
+  "saldocare.meta.description":
+    "Saldocare est une app de comptabilité pour entreprises individuelles et PME suisses: écritures, base clients, factures, salaires et export TVA dans une interface calme et claire.",
+  "saldocare.meta.ogDescription":
+    "App de comptabilité pour entreprises individuelles et PME suisses, axée sur la clarté, le contrôle et des processus conformes au contexte suisse.",
+  "saldocare.back": "Retour à l'aperçu des projets",
+  "saldocare.hero.iconAlt": "Icône Saldocare",
+  "saldocare.kicker": "Projet 03 / 2026",
+  "saldocare.lead":
+    "Comptabilité pour entreprises individuelles et petites PME suisses - conçue avec calme, structurée clairement et centrée sur les processus réellement utiles au quotidien.",
+  "saldocare.hero.metaAria": "Caractéristiques du produit",
+  "saldocare.hero.meta.market": "Suisse - CHF",
+  "saldocare.hero.meta.status": "Utilisé en interne",
+  "saldocare.hero.meta.control": "Contrôle local des données",
+  "saldocare.hero.mediaAlt":
+    "Saldocare sur un ordinateur portable avec vue comptable, factures et indicateurs financiers",
+  "saldocare.compact.kicker": "En bref",
+  "saldocare.compact.title": "Pourquoi Saldocare a été conçu.",
+  "saldocare.compact.focus.label": "Focus",
+  "saldocare.compact.focus.value": "Quotidien",
+  "saldocare.compact.focus.body":
+    "Pas de logique ERP surchargée, mais un outil de travail pour les écritures, les factures, la base clients, les salaires et l'export dans un flux compréhensible.",
+  "saldocare.compact.data.label": "Données",
+  "saldocare.compact.data.value": "Contrôle",
+  "saldocare.compact.data.body":
+    "Les paiements entrants sont volontairement confirmés manuellement. La sauvegarde et la restauration passent par l'export, sans complexité inutile.",
+  "saldocare.compact.swiss.label": "Suisse",
+  "saldocare.compact.swiss.value": "Contexte",
+  "saldocare.compact.swiss.body":
+    "Analyse TVA, brouillons de certificats de salaire, modèles de facture et exports s'alignent sur ce qui est réellement pertinent pour les entreprises individuelles suisses.",
+  "saldocare.preview.kicker": "Aperçu",
+  "saldocare.preview.title": "À quoi ressemble l'app en usage.",
+  "saldocare.preview.overview.alt":
+    "Vue d'ensemble Saldocare avec indicateurs, projets, dernières écritures et section factures",
+  "saldocare.preview.overview.title": "Vue d'ensemble",
+  "saldocare.preview.overview.body":
+    "Indicateurs annuels, projets, dernières écritures et factures à venir sont réunis dans un écran d'accueil calme, sans agitation visuelle.",
+  "saldocare.preview.customers.alt":
+    "Clients et factures Saldocare avec liste de clients, filtres et file de travail des factures",
+  "saldocare.preview.customers.title": "Clients et factures",
+  "saldocare.preview.customers.body":
+    "Plusieurs bases clients, importation, filtres, statut des factures et flux d'envoi puis de comptabilisation restent liés dans une même structure.",
+  "saldocare.features.kicker": "Fonctionnalités",
+  "saldocare.features.title": "Ce qui est déjà couvert aujourd'hui.",
+  "saldocare.features.bookings.title": "Écritures et projets",
+  "saldocare.features.bookings.body":
+    "Les revenus et dépenses peuvent être évalués par année et par projet. La page d'accueil montre immédiatement ce qui reste ouvert et l'évolution du solde, des revenus et des dépenses.",
+  "saldocare.features.customers.title": "Base clients et cycle de facturation",
+  "saldocare.features.customers.body":
+    "Les factures sont créées directement depuis l'espace client. L'envoi, les échéances et la comptabilisation ultérieure en revenu restent dans le même flux.",
+  "saldocare.features.documents.title": "Salaires et documents",
+  "saldocare.features.documents.body":
+    "Décomptes de salaire, brouillons de certificats de salaire et modèles de documents personnalisés font partie de l'ensemble, tout comme des modèles de facture remplissables en DOCX ou PDF.",
+  "saldocare.features.export.title": "Export et sauvegarde",
+  "saldocare.features.export.body":
+    "Les exports annuels en Excel, CSV ou ZIP de justificatifs, ainsi que la sauvegarde et la restauration via JSON, permettent d'emporter ses données de façon fiable.",
+  "saldocare.cta.kicker": "Statut",
+  "saldocare.cta.title": "Actuellement utilisée en interne chez Wittmer AppCare.",
+  "saldocare.cta.body":
+    "Saldocare est née d'un besoin réel et est déjà utilisée au quotidien. Pour une éventuelle sortie publique, une version ultérieure avec connexion, synchronisation et abonnement est prévue.",
+  "saldocare.cta.link": "Intérêt pour Saldocare",
+});
+
+Object.assign(translations.it, {
+  "saldocare.meta.title": "Saldocare | Wittmer AppCare",
+  "saldocare.meta.description":
+    "Saldocare è un'app contabile per ditte individuali e PMI svizzere: registrazioni, anagrafica clienti, fatture, salari ed export IVA in un'interfaccia calma e chiara.",
+  "saldocare.meta.ogDescription":
+    "App contabile per ditte individuali e PMI svizzere con focus su chiarezza, controllo e flussi conformi al contesto svizzero.",
+  "saldocare.back": "Torna alla panoramica progetti",
+  "saldocare.hero.iconAlt": "Icona Saldocare",
+  "saldocare.kicker": "Progetto 03 / 2026",
+  "saldocare.lead":
+    "Contabilità per ditte individuali e piccole PMI svizzere - progettata con calma, strutturata con chiarezza e costruita attorno ai flussi davvero utili nel lavoro quotidiano.",
+  "saldocare.hero.metaAria": "Caratteristiche del prodotto",
+  "saldocare.hero.meta.market": "Svizzera - CHF",
+  "saldocare.hero.meta.status": "In uso interno",
+  "saldocare.hero.meta.control": "Controllo locale dei dati",
+  "saldocare.hero.mediaAlt":
+    "Saldocare su un portatile con panoramica contabile, fatture e indicatori finanziari",
+  "saldocare.compact.kicker": "In breve",
+  "saldocare.compact.title": "Per cosa è stato creato Saldocare.",
+  "saldocare.compact.focus.label": "Focus",
+  "saldocare.compact.focus.value": "Quotidianità",
+  "saldocare.compact.focus.body":
+    "Niente logica ERP sovraccarica, ma uno strumento di lavoro per registrazioni, fatture, anagrafica clienti, salari ed export in un flusso facile da seguire.",
+  "saldocare.compact.data.label": "Dati",
+  "saldocare.compact.data.value": "Controllo",
+  "saldocare.compact.data.body":
+    "Gli incassi vengono confermati volutamente in modo manuale. Backup e ripristino avvengono tramite export, senza complessità inutile.",
+  "saldocare.compact.swiss.label": "Svizzera",
+  "saldocare.compact.swiss.value": "Contesto",
+  "saldocare.compact.swiss.body":
+    "Valutazione IVA, bozze di certificati salariali, modelli di fattura ed export sono allineati a ciò che conta davvero per le ditte individuali svizzere.",
+  "saldocare.preview.kicker": "Anteprima",
+  "saldocare.preview.title": "Come appare l'app nell'uso quotidiano.",
+  "saldocare.preview.overview.alt":
+    "Panoramica Saldocare con indicatori, progetti, ultime registrazioni e sezione fatture",
+  "saldocare.preview.overview.title": "Panoramica",
+  "saldocare.preview.overview.body":
+    "Indicatori annuali, progetti, ultime registrazioni e fatture imminenti convivono in una schermata iniziale calma, senza rumore visivo.",
+  "saldocare.preview.customers.alt":
+    "Clienti e fatture Saldocare con elenco clienti, filtri e lista di lavoro delle fatture",
+  "saldocare.preview.customers.title": "Clienti e fatture",
+  "saldocare.preview.customers.body":
+    "Più anagrafiche clienti, importazione, filtri, stato delle fatture e flusso di invio e contabilizzazione restano collegati nella stessa struttura.",
+  "saldocare.features.kicker": "Funzionalità",
+  "saldocare.features.title": "Cosa copre già oggi.",
+  "saldocare.features.bookings.title": "Registrazioni e progetti",
+  "saldocare.features.bookings.body":
+    "Entrate e uscite possono essere valutate per anno e per progetto. La pagina iniziale mostra subito cosa è ancora aperto e come evolvono saldo, entrate e uscite.",
+  "saldocare.features.customers.title": "Anagrafica clienti e ciclo fatture",
+  "saldocare.features.customers.body":
+    "Le fatture vengono create direttamente dall'area clienti. Invio, scadenze e successiva contabilizzazione come entrata restano parte dello stesso flusso.",
+  "saldocare.features.documents.title": "Salari e documenti",
+  "saldocare.features.documents.body":
+    "Conteggi salariali, bozze di certificati salariali e modelli di documenti personalizzati fanno parte dell'insieme, insieme a modelli fattura compilabili in DOCX o PDF.",
+  "saldocare.features.export.title": "Export e backup",
+  "saldocare.features.export.body":
+    "Export annuali in Excel, CSV o ZIP dei giustificativi, oltre a backup e ripristino via JSON, aiutano a portare con sé i propri dati in modo affidabile.",
+  "saldocare.cta.kicker": "Stato",
+  "saldocare.cta.title": "Attualmente in uso interno presso Wittmer AppCare.",
+  "saldocare.cta.body":
+    "Saldocare è nata da un'esigenza reale ed è già utilizzata ogni giorno. Per un possibile rilascio pubblico è prevista in seguito una versione con login, sincronizzazione e modello in abbonamento.",
+  "saldocare.cta.link": "Interesse per Saldocare",
+});
+
 const languageMeta = {
   de: { code: "DE", flag: "flag-de", htmlLang: "de-CH" },
   en: { code: "EN", flag: "flag-gb", htmlLang: "en" },
@@ -711,15 +967,16 @@ function closeMenu() {
   trigger.setAttribute("aria-expanded", "false");
 }
 
-if (trigger && menu) {
-  let savedLanguage = "de";
-  try {
-    savedLanguage = localStorage.getItem("wittmer-appcare-language-v2") || "de";
-  } catch {
-    savedLanguage = "de";
-  }
-  applyLanguage(savedLanguage);
+let savedLanguage = "de";
+try {
+  savedLanguage = localStorage.getItem("wittmer-appcare-language-v2") || "de";
+} catch {
+  savedLanguage = "de";
+}
 
+applyLanguage(savedLanguage);
+
+if (trigger && menu) {
   trigger.addEventListener("click", () => {
     const isOpen = trigger.getAttribute("aria-expanded") === "true";
     menu.hidden = isOpen;

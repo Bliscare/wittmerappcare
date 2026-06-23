@@ -1,17 +1,21 @@
 <!doctype html>
-<html lang="de-CH">
+<html lang="de-CH" data-page-title="saldocare.meta.title">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Saldocare | Wittmer AppCare</title>
     <meta
       name="description"
-      content="Saldocare ist eine Buchhaltungs-App für Schweizer Einzelfirmen und KMU: Buchungen, Kundenstamm, Rechnungen, Lohn und MWST-Export in einer ruhigen, klaren Oberfläche."
+      content="Saldocare ist eine Buchhaltungs-App f&uuml;r Schweizer Einzelfirmen und KMU: Buchungen, Kundenstamm, Rechnungen, Lohn und MWST-Export in einer ruhigen, klaren Oberfl&auml;che."
+      data-i18n="saldocare.meta.description"
+      data-i18n-attr="content"
     />
-    <meta property="og:title" content="Saldocare | Wittmer AppCare" />
+    <meta property="og:title" content="Saldocare | Wittmer AppCare" data-i18n="saldocare.meta.title" data-i18n-attr="content" />
     <meta
       property="og:description"
-      content="Buchhaltungs-App für Schweizer Einzelfirmen und KMU mit Fokus auf Übersicht, Kontrolle und schweizkonforme Abläufe."
+      content="Buchhaltungs-App f&uuml;r Schweizer Einzelfirmen und KMU mit Fokus auf &Uuml;bersicht, Kontrolle und schweizkonforme Abl&auml;ufe."
+      data-i18n="saldocare.meta.ogDescription"
+      data-i18n-attr="content"
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://wittmerappcare.ch/saldocare" />
@@ -19,7 +23,7 @@
     <link rel="canonical" href="https://wittmerappcare.ch/saldocare" />
     <link rel="icon" href="/images/wittmer-appcare-logo-web.png?v=2" type="image/png" />
     <link rel="apple-touch-icon" href="/images/wittmer-appcare-logo-web.png?v=2" />
-    <link rel="stylesheet" href="styles.css?v=12" />
+    <link rel="stylesheet" href="/styles.css?v=12" />
   </head>
   <body>
     <header class="site-header">
@@ -30,10 +34,41 @@
         </a>
         <div class="header-actions">
           <nav class="nav" aria-label="Hauptnavigation">
-            <a href="/#arbeiten">Projekte</a>
-            <a href="/#profil">Profil</a>
-            <a href="/#kontakt">Kontakt</a>
+            <a href="/#arbeiten" data-i18n="nav.work">Projekte</a>
+            <a href="/#profil" data-i18n="nav.profile">Profil</a>
+            <a href="/#kontakt" data-i18n="nav.contact">Kontakt</a>
           </nav>
+          <div class="language-switcher">
+            <button class="language-trigger" type="button" aria-haspopup="true" aria-expanded="false">
+              <span class="language-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="16" height="16" focusable="false">
+                  <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8" />
+                  <path d="M3 12h18M12 3c2.4 2.7 3.6 5.7 3.6 9s-1.2 6.3-3.6 9M12 3c-2.4 2.7-3.6 5.7-3.6 9s1.2 6.3 3.6 9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                </svg>
+              </span>
+              <span class="language-current-flag flag flag-de" aria-hidden="true"></span>
+              <span class="language-current-code">DE</span>
+              <span class="language-chevron" aria-hidden="true">&#9662;</span>
+            </button>
+            <div class="language-menu" role="menu" hidden>
+              <button class="language-menu-option" type="button" role="menuitemradio" data-lang="de">
+                <span class="flag flag-de" aria-hidden="true"></span>
+                <span>Deutsch</span>
+              </button>
+              <button class="language-menu-option" type="button" role="menuitemradio" data-lang="en">
+                <span class="flag flag-gb" aria-hidden="true"></span>
+                <span>English</span>
+              </button>
+              <button class="language-menu-option" type="button" role="menuitemradio" data-lang="fr">
+                <span class="flag flag-fr" aria-hidden="true"></span>
+                <span>Fran&ccedil;ais</span>
+              </button>
+              <button class="language-menu-option" type="button" role="menuitemradio" data-lang="it">
+                <span class="flag flag-it" aria-hidden="true"></span>
+                <span>Italiano</span>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -42,31 +77,39 @@
       <section class="product-hero">
         <div class="container product-hero-layout">
           <div class="product-hero-copy">
-            <a class="back-link product-back" href="/#arbeiten">Zurück zur Projektübersicht</a>
+            <a class="back-link product-back" href="/#arbeiten" data-i18n="saldocare.back">Zur&uuml;ck zur Projekt&uuml;bersicht</a>
             <div class="product-topline">
               <span class="product-icon-wrap">
-                <img class="product-icon" src="images/saldocare-app-icon.png" alt="Saldocare Icon" />
+                <img
+                  class="product-icon"
+                  src="/images/saldocare-app-icon.png"
+                  alt="Saldocare Icon"
+                  data-i18n="saldocare.hero.iconAlt"
+                  data-i18n-attr="alt"
+                />
               </span>
-              <p class="eyebrow">Projekt 03 / 2026</p>
+              <p class="eyebrow" data-i18n="saldocare.kicker">Projekt 03 / 2026</p>
             </div>
             <h1>Saldocare</h1>
-            <p class="product-lead">
-              Buchhaltung für Schweizer Einzelfirmen und kleine KMU - ruhig gestaltet,
-              klar strukturiert und auf die Abläufe ausgerichtet, die im Alltag
+            <p class="product-lead" data-i18n="saldocare.lead">
+              Buchhaltung f&uuml;r Schweizer Einzelfirmen und kleine KMU - ruhig gestaltet,
+              klar strukturiert und auf die Abl&auml;ufe ausgerichtet, die im Alltag
               wirklich gebraucht werden.
             </p>
-            <div class="product-meta" aria-label="Produktmerkmale">
-              <span>Schweiz - CHF</span>
-              <span>Im eigenen Einsatz</span>
-              <span>Lokale Kontrolle der Daten</span>
+            <div class="product-meta" aria-label="Produktmerkmale" data-i18n="saldocare.hero.metaAria" data-i18n-attr="aria-label">
+              <span data-i18n="saldocare.hero.meta.market">Schweiz - CHF</span>
+              <span data-i18n="saldocare.hero.meta.status">Im eigenen Einsatz</span>
+              <span data-i18n="saldocare.hero.meta.control">Lokale Kontrolle der Daten</span>
             </div>
           </div>
 
           <div class="product-hero-media">
             <img
               class="product-hero-art"
-              src="images/saldocare-hero.png"
-              alt="Saldocare auf einem Laptop mit Buchhaltungsübersicht, Rechnungen und Finanzkennzahlen"
+              src="/images/saldocare-hero.png"
+              alt="Saldocare auf einem Laptop mit Buchhaltungs&uuml;bersicht, Rechnungen und Finanzkennzahlen"
+              data-i18n="saldocare.hero.mediaAlt"
+              data-i18n-attr="alt"
             />
           </div>
         </div>
@@ -75,35 +118,35 @@
       <section class="section">
         <div class="container">
           <div class="section-intro">
-            <p class="eyebrow">Kompakt</p>
-            <h2>Wofür Saldocare gebaut wurde.</h2>
+            <p class="eyebrow" data-i18n="saldocare.compact.kicker">Kompakt</p>
+            <h2 data-i18n="saldocare.compact.title">Wof&uuml;r Saldocare gebaut wurde.</h2>
           </div>
 
           <div class="product-grid">
             <article class="product-card">
-              <span class="product-label">Fokus</span>
-              <span class="product-number">Alltag</span>
-              <p>
-                Keine überladene ERP-Logik, sondern ein Arbeitswerkzeug für Buchungen,
+              <span class="product-label" data-i18n="saldocare.compact.focus.label">Fokus</span>
+              <span class="product-number" data-i18n="saldocare.compact.focus.value">Alltag</span>
+              <p data-i18n="saldocare.compact.focus.body">
+                Keine &uuml;berladene ERP-Logik, sondern ein Arbeitswerkzeug f&uuml;r Buchungen,
                 Rechnungen, Kundenstamm, Lohn und Export in einem nachvollziehbaren Ablauf.
               </p>
             </article>
 
             <article class="product-card">
-              <span class="product-label">Datenhaltung</span>
-              <span class="product-number">Kontrolle</span>
-              <p>
-                Zahlungseingänge werden bewusst manuell bestätigt. Backup und
-                Wiederherstellung laufen per Export - ohne unnötige Komplexität.
+              <span class="product-label" data-i18n="saldocare.compact.data.label">Datenhaltung</span>
+              <span class="product-number" data-i18n="saldocare.compact.data.value">Kontrolle</span>
+              <p data-i18n="saldocare.compact.data.body">
+                Zahlungseing&auml;nge werden bewusst manuell best&auml;tigt. Backup und
+                Wiederherstellung laufen per Export - ohne unn&ouml;tige Komplexit&auml;t.
               </p>
             </article>
 
             <article class="product-card">
-              <span class="product-label">Schweiz</span>
-              <span class="product-number">Kontext</span>
-              <p>
+              <span class="product-label" data-i18n="saldocare.compact.swiss.label">Schweiz</span>
+              <span class="product-number" data-i18n="saldocare.compact.swiss.value">Kontext</span>
+              <p data-i18n="saldocare.compact.swiss.body">
                 MWST-Auswertung, Lohnausweis-Entwurf, Rechnungsvorlagen und Exporte
-                orientieren sich an dem, was für Schweizer Einzelfirmen tatsächlich relevant ist.
+                orientieren sich an dem, was f&uuml;r Schweizer Einzelfirmen tats&auml;chlich relevant ist.
               </p>
             </article>
           </div>
@@ -113,19 +156,21 @@
       <section class="section works-section">
         <div class="container">
           <div class="section-intro">
-            <p class="eyebrow">Einblick</p>
-            <h2>Wie die App im Einsatz aussieht.</h2>
+            <p class="eyebrow" data-i18n="saldocare.preview.kicker">Einblick</p>
+            <h2 data-i18n="saldocare.preview.title">Wie die App im Einsatz aussieht.</h2>
           </div>
 
           <div class="product-screenshot-grid">
             <article class="product-screenshot-card">
               <img
-                src="images/saldocare-screen-overview.png"
-                alt="Saldocare Übersicht mit Kennzahlen, Projekten, letzten Buchungen und Rechnungsbereich"
+                src="/images/saldocare-screen-overview.png"
+                alt="Saldocare &Uuml;bersicht mit Kennzahlen, Projekten, letzten Buchungen und Rechnungsbereich"
+                data-i18n="saldocare.preview.overview.alt"
+                data-i18n-attr="alt"
               />
               <div class="product-screenshot-copy">
-                <h3>Übersicht</h3>
-                <p>
+                <h3 data-i18n="saldocare.preview.overview.title">&Uuml;bersicht</h3>
+                <p data-i18n="saldocare.preview.overview.body">
                   Jahreskennzahlen, Projekte, letzte Buchungen und anstehende Rechnungen
                   liegen in einer ruhigen Startansicht zusammen - ohne visuelle Unruhe.
                 </p>
@@ -134,14 +179,16 @@
 
             <article class="product-screenshot-card">
               <img
-                src="images/saldocare-screen-customers.png"
+                src="/images/saldocare-screen-customers.png"
                 alt="Saldocare Kunden und Rechnungen mit Kundenliste, Filtern und Rechnungs-Arbeitsliste"
+                data-i18n="saldocare.preview.customers.alt"
+                data-i18n-attr="alt"
               />
               <div class="product-screenshot-copy">
-                <h3>Kunden &amp; Rechnungen</h3>
-                <p>
-                  Mehrere Kundenstämme, Import, Filter, Rechnungsstatus und die
-                  Arbeitsliste für Versand und Verbuchung bleiben in derselben Struktur verbunden.
+                <h3 data-i18n="saldocare.preview.customers.title">Kunden &amp; Rechnungen</h3>
+                <p data-i18n="saldocare.preview.customers.body">
+                  Mehrere Kundenst&auml;mme, Import, Filter, Rechnungsstatus und die
+                  Arbeitsliste f&uuml;r Versand und Verbuchung bleiben in derselben Struktur verbunden.
                 </p>
               </div>
             </article>
@@ -152,14 +199,14 @@
       <section class="section">
         <div class="container">
           <div class="section-intro">
-            <p class="eyebrow">Funktionsumfang</p>
-            <h2>Was heute schon abgedeckt ist.</h2>
+            <p class="eyebrow" data-i18n="saldocare.features.kicker">Funktionsumfang</p>
+            <h2 data-i18n="saldocare.features.title">Was heute schon abgedeckt ist.</h2>
           </div>
 
           <div class="product-detail-grid">
             <article class="product-detail-card">
-              <h3>Buchungen und Projekte</h3>
-              <p>
+              <h3 data-i18n="saldocare.features.bookings.title">Buchungen und Projekte</h3>
+              <p data-i18n="saldocare.features.bookings.body">
                 Einnahmen und Ausgaben lassen sich pro Jahr und Projekt auswerten.
                 Die Startseite zeigt sofort, was offen ist und wie sich Saldo,
                 Einnahmen und Ausgaben entwickeln.
@@ -167,26 +214,26 @@
             </article>
 
             <article class="product-detail-card">
-              <h3>Kundenstamm und Rechnungslauf</h3>
-              <p>
+              <h3 data-i18n="saldocare.features.customers.title">Kundenstamm und Rechnungslauf</h3>
+              <p data-i18n="saldocare.features.customers.body">
                 Rechnungen entstehen direkt aus dem Kundenbereich. Versand,
-                Fälligkeiten und die spätere Verbuchung als Einnahme bleiben im selben Ablauf.
+                F&auml;lligkeiten und die sp&auml;tere Verbuchung als Einnahme bleiben im selben Ablauf.
               </p>
             </article>
 
             <article class="product-detail-card">
-              <h3>Lohn und Dokumente</h3>
-              <p>
-                Lohnabrechnungen, Lohnausweis-Entwürfe und eigene Dokumentvorlagen
-                gehören ebenso dazu wie befüllbare Rechnungs-Templates als DOCX oder PDF.
+              <h3 data-i18n="saldocare.features.documents.title">Lohn und Dokumente</h3>
+              <p data-i18n="saldocare.features.documents.body">
+                Lohnabrechnungen, Lohnausweis-Entw&uuml;rfe und eigene Dokumentvorlagen
+                geh&ouml;ren ebenso dazu wie bef&uuml;llbare Rechnungs-Templates als DOCX oder PDF.
               </p>
             </article>
 
             <article class="product-detail-card">
-              <h3>Export und Sicherung</h3>
-              <p>
+              <h3 data-i18n="saldocare.features.export.title">Export und Sicherung</h3>
+              <p data-i18n="saldocare.features.export.body">
                 Jahresexporte als Excel, CSV oder Belege-ZIP sowie Backup und
-                Wiederherstellung per JSON helfen dabei, die eigenen Daten tragfähig mitzunehmen.
+                Wiederherstellung per JSON helfen dabei, die eigenen Daten tragf&auml;hig mitzunehmen.
               </p>
             </article>
           </div>
@@ -196,15 +243,19 @@
       <section class="section">
         <div class="container">
           <div class="product-cta">
-            <p class="eyebrow">Status</p>
-            <h2>Aktuell im eigenen Einsatz bei Wittmer AppCare.</h2>
-            <p>
+            <p class="eyebrow" data-i18n="saldocare.cta.kicker">Status</p>
+            <h2 data-i18n="saldocare.cta.title">Aktuell im eigenen Einsatz bei Wittmer AppCare.</h2>
+            <p data-i18n="saldocare.cta.body">
               Saldocare ist aus einem realen Bedarf entstanden und wird bereits im Alltag verwendet.
-              Für einen möglichen öffentlichen Release ist später eine Version mit Login,
+              F&uuml;r einen m&ouml;glichen &ouml;ffentlichen Release ist sp&auml;ter eine Version mit Login,
               Synchronisation und Abo-Modell vorgesehen.
             </p>
             <div class="product-cta-actions">
-              <a class="product-cta-link" href="mailto:saldocare@wittmerappcare.ch?subject=Interesse%20an%20Saldocare">
+              <a
+                class="product-cta-link"
+                href="mailto:saldocare@wittmerappcare.ch?subject=Interesse%20an%20Saldocare"
+                data-i18n="saldocare.cta.link"
+              >
                 Interesse an Saldocare
               </a>
             </div>
@@ -215,12 +266,14 @@
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <p>&copy; 2026 Wittmer AppCare. Alle Rechte vorbehalten.</p>
+        <p data-i18n="footer.copy">&copy; 2026 Wittmer AppCare. Alle Rechte vorbehalten.</p>
         <div class="footer-links">
-          <a href="/impressum">Impressum</a>
-          <a href="/datenschutz">Datenschutz</a>
+          <a href="/impressum" data-i18n="footer.imprint">Impressum</a>
+          <a href="/datenschutz" data-i18n="footer.privacy">Datenschutz</a>
         </div>
       </div>
     </footer>
+
+    <script src="/i18n.js?v=11"></script>
   </body>
 </html>
