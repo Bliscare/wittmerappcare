@@ -1289,6 +1289,62 @@ Object.assign(translations.it, {
   "queensPrivacy.updated.copy": "17 luglio 2026",
 });
 
+Object.assign(translations.de, {
+  "queensImprint.meta.title": "Impressum Queens Era | Wittmer AppCare",
+  "queensImprint.meta.description": "Anbieterinformationen zu Queens Era von Wittmer AppCare.",
+  "queensImprint.back": "Zurück zu Queens Era",
+  "queensImprint.kicker": "Rechtliche Angaben",
+  "queensImprint.title": "Impressum",
+  "queensImprint.lead": "Anbieterinformationen zu Queens Era.",
+  "queensImprint.provider.title": "Anbieterin",
+  "queensImprint.contact.title": "Kontakt",
+  "queensImprint.contact.email": "E-Mail:",
+  "queensImprint.copyright.title": "Urheberrecht",
+  "queensImprint.copyright.copy": "Inhalte, Texte, Bilder und Gestaltung von Queens Era und dieser Projektseite sind urheberrechtlich geschützt, soweit keine anderen Angaben gemacht werden.",
+});
+
+Object.assign(translations.en, {
+  "queensImprint.meta.title": "Queens Era Legal Notice | Wittmer AppCare",
+  "queensImprint.meta.description": "Publisher information for Queens Era by Wittmer AppCare.",
+  "queensImprint.back": "Back to Queens Era",
+  "queensImprint.kicker": "Legal information",
+  "queensImprint.title": "Legal Notice",
+  "queensImprint.lead": "Publisher information for Queens Era.",
+  "queensImprint.provider.title": "Publisher",
+  "queensImprint.contact.title": "Contact",
+  "queensImprint.contact.email": "Email:",
+  "queensImprint.copyright.title": "Copyright",
+  "queensImprint.copyright.copy": "The content, text, images, and design of Queens Era and this project page are protected by copyright unless stated otherwise.",
+});
+
+Object.assign(translations.fr, {
+  "queensImprint.meta.title": "Mentions légales Queens Era | Wittmer AppCare",
+  "queensImprint.meta.description": "Informations sur le fournisseur de Queens Era par Wittmer AppCare.",
+  "queensImprint.back": "Retour à Queens Era",
+  "queensImprint.kicker": "Informations juridiques",
+  "queensImprint.title": "Mentions légales",
+  "queensImprint.lead": "Informations sur le fournisseur de Queens Era.",
+  "queensImprint.provider.title": "Fournisseur",
+  "queensImprint.contact.title": "Contact",
+  "queensImprint.contact.email": "E-mail :",
+  "queensImprint.copyright.title": "Droit d'auteur",
+  "queensImprint.copyright.copy": "Les contenus, textes, images et la conception de Queens Era et de cette page de projet sont protégés par le droit d'auteur, sauf indication contraire.",
+});
+
+Object.assign(translations.it, {
+  "queensImprint.meta.title": "Note legali Queens Era | Wittmer AppCare",
+  "queensImprint.meta.description": "Informazioni sul fornitore di Queens Era da parte di Wittmer AppCare.",
+  "queensImprint.back": "Torna a Queens Era",
+  "queensImprint.kicker": "Informazioni legali",
+  "queensImprint.title": "Note legali",
+  "queensImprint.lead": "Informazioni sul fornitore di Queens Era.",
+  "queensImprint.provider.title": "Fornitore",
+  "queensImprint.contact.title": "Contatto",
+  "queensImprint.contact.email": "E-mail:",
+  "queensImprint.copyright.title": "Diritto d'autore",
+  "queensImprint.copyright.copy": "I contenuti, i testi, le immagini e il design di Queens Era e di questa pagina di progetto sono protetti dal diritto d'autore, salvo diversa indicazione.",
+});
+
 const languageMeta = {
   de: { code: "DE", flag: "flag-de", htmlLang: "de-CH" },
   en: { code: "EN", flag: "flag-gb", htmlLang: "en" },
