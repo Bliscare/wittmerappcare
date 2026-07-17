@@ -1255,3 +1255,68 @@ h3 {
     line-height: 1.62;
   }
 }
+
+/* Queens Era product page */
+.queens-product-main {
+  background:
+    radial-gradient(circle at 88% 8%, rgba(142, 85, 157, 0.16), transparent 30%),
+    linear-gradient(180deg, #fffafd 0%, #f7f0f7 58%, #fbf8f5 100%);
+}
+
+.queens-product-main .product-meta span,
+.queens-product-main .product-card,
+.queens-product-main .product-screenshot-card,
+.queens-product-main .product-detail-card {
+  border-color: rgba(71, 33, 78, 0.14);
+}
+
+.queens-product-main .product-label {
+  color: #885b8f;
+}
+
+.queens-hero-art {
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.queens-phone-shot {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 610px;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 15%, rgba(201, 157, 205, 0.22), transparent 44%),
+    linear-gradient(180deg, #26152a 0%, #160d19 100%);
+  padding: 28px 24px 0;
+}
+
+.product-screenshot-card .queens-phone-shot img {
+  width: min(78%, 310px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-bottom: 0;
+  border-radius: 28px 28px 0 0;
+  box-shadow: 0 20px 46px rgba(0, 0, 0, 0.34);
+}
+
+.queens-product-cta {
+  background:
+    radial-gradient(circle at 85% 10%, rgba(205, 156, 205, 0.28), transparent 36%),
+    linear-gradient(135deg, #1d1020 0%, #522c59 100%);
+}
+
+.queens-product-cta .eyebrow {
+  color: #e6b7e7;
+}
+
+@media (max-width: 700px) {
+  .queens-phone-shot {
+    height: 520px;
+    padding-top: 22px;
+  }
+
+  .product-screenshot-card .queens-phone-shot img {
+    width: min(84%, 290px);
+    border-radius: 22px 22px 0 0;
+  }
+}
