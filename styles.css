@@ -1263,7 +1263,7 @@ h3 {
     linear-gradient(180deg, #fffafd 0%, #f7f0f7 58%, #fbf8f5 100%);
 }
 
-:is(.queens-privacy-page, .queens-imprint-page) {
+.queens-legal-page {
   --ink: #211225;
   --ink-soft: rgba(33, 18, 37, 0.72);
   --ink-muted: rgba(33, 18, 37, 0.56);
@@ -1278,31 +1278,44 @@ h3 {
   --deep-soft: #522c59;
 }
 
-:is(.queens-privacy-page, .queens-imprint-page) .site-header {
-  background: rgba(251, 245, 250, 0.92);
+.queens-legal-page .site-header {
+  border-bottom-color: rgba(91, 49, 99, 0.14);
+  background: rgba(255, 250, 253, 0.94);
 }
 
-:is(.queens-privacy-page, .queens-imprint-page) .legal-main {
+.queens-legal-page .legal-main {
   background:
-    radial-gradient(circle at 88% 8%, rgba(142, 85, 157, 0.15), transparent 30%),
+    radial-gradient(circle at 88% 8%, rgba(142, 85, 157, 0.22), transparent 32%),
+    radial-gradient(circle at 8% 72%, rgba(214, 171, 92, 0.12), transparent 28%),
     linear-gradient(180deg, #fffafd 0%, #f7f0f7 58%, #fbf8f5 100%);
 }
 
-:is(.queens-privacy-page, .queens-imprint-page) .legal-page h1 {
+.queens-legal-page .legal-page h1 {
   color: #2a172d;
 }
 
-:is(.queens-privacy-page, .queens-imprint-page) .legal-box {
-  margin-bottom: 14px;
-  border: 1px solid rgba(91, 49, 99, 0.14);
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.78);
-  padding: 24px;
-  box-shadow: 0 14px 34px rgba(42, 21, 47, 0.05);
+.queens-legal-page .legal-page .eyebrow,
+.queens-legal-page .legal-box h2,
+.queens-legal-page .back-link {
+  color: #75427e;
 }
 
-:is(.queens-privacy-page, .queens-imprint-page) .legal-box a {
+.queens-legal-page .legal-box {
+  margin-bottom: 14px;
+  border: 1px solid rgba(91, 49, 99, 0.2);
+  border-radius: 20px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.94), rgba(249, 239, 248, 0.9));
+  padding: 24px;
+  box-shadow: 0 16px 38px rgba(42, 21, 47, 0.08);
+}
+
+.queens-legal-page .legal-box a {
+  color: #75427e;
   border-color: rgba(183, 134, 56, 0.45);
+}
+
+.queens-legal-page .site-footer {
+  background: #1d1020;
 }
 
 .queens-product-main .product-meta span,
