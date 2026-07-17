@@ -1191,7 +1191,7 @@ Object.assign(translations.de, {
   "queensPrivacy.email.title": "Kontakt per E-Mail",
   "queensPrivacy.email.copy": "E-Mail-Anfragen werden inklusive Absenderadresse, Nachrichteninhalt und technischer Begleitdaten bearbeitet, soweit dies zur Beantwortung erforderlich ist.",
   "queensPrivacy.rights.title": "Ihre Rechte",
-  "queensPrivacy.rights.copy": "Nach Maßgabe des anwendbaren Datenschutzrechts können Sie insbesondere Auskunft, Berichtigung, Löschung oder Einschränkung der Bearbeitung verlangen. Anfragen richten Sie bitte an",
+  "queensPrivacy.rights.copy": "Nach Massgabe des anwendbaren Datenschutzrechts können Sie insbesondere Auskunft, Berichtigung, Löschung oder Einschränkung der Bearbeitung verlangen. Anfragen richten Sie bitte an",
   "queensPrivacy.updated.title": "Stand",
   "queensPrivacy.updated.copy": "17. Juli 2026",
 });
