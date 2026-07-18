@@ -923,7 +923,7 @@ Object.assign(translations.de, {
   "case4.fact4.value": "Ein eigener deterministischer Generator, Solver und Human Solver prüfen Eindeutigkeit, logische Lösbarkeit, Schwierigkeit und strukturelle Vielfalt.",
   "case4.fact5.label": "Status",
   "case4.fact5.value": "Als Expo-/React-Native-App für Android in aktiver Entwicklung.",
-  "queens.meta.title": "Queens Era | Wittmer AppCare",
+  "queens.meta.title": "Queens Era Offline | Wittmer AppCare",
   "queens.meta.description": "Queens Era ist ein vollständig offline spielbares Logikspiel für Android mit 21'300 Levels, variablen Spielfeldgrössen, Hinweisen und lokaler Statistik.",
   "queens.meta.ogDescription": "Ruhige Logikrätsel mit 21'300 Levels, komplett offline und ohne Konto, Cloud oder Werbung.",
   "queens.back": "Zurück zur Projektübersicht",
@@ -988,7 +988,7 @@ Object.assign(translations.en, {
   "case4.fact4.value": "A custom deterministic generator, solver, and human solver verify uniqueness, logical solvability, difficulty, and structural variety.",
   "case4.fact5.label": "Status",
   "case4.fact5.value": "In active development as an Expo and React Native app for Android.",
-  "queens.meta.title": "Queens Era | Wittmer AppCare",
+  "queens.meta.title": "Queens Era Offline | Wittmer AppCare",
   "queens.meta.description": "Queens Era is a fully offline logic game for Android with 21,300 levels, variable board sizes, hints, and local statistics.",
   "queens.meta.ogDescription": "Calm logic puzzles with 21,300 levels, fully offline and without accounts, cloud services, or advertising.",
   "queens.back": "Back to project overview",
@@ -1053,7 +1053,7 @@ Object.assign(translations.fr, {
   "case4.fact4.value": "Un générateur déterministe, un solveur et un solveur humain vérifient l'unicité, la résolution logique, la difficulté et la diversité structurelle.",
   "case4.fact5.label": "Statut",
   "case4.fact5.value": "En développement actif comme app Android Expo et React Native.",
-  "queens.meta.title": "Queens Era | Wittmer AppCare",
+  "queens.meta.title": "Queens Era Offline | Wittmer AppCare",
   "queens.meta.description": "Queens Era est un jeu de logique Android entièrement hors ligne avec 21 300 niveaux, plusieurs tailles de grille, des indices et des statistiques locales.",
   "queens.meta.ogDescription": "Des énigmes calmes avec 21 300 niveaux, entièrement hors ligne, sans compte, cloud ni publicité.",
   "queens.back": "Retour à l'aperçu des projets",
@@ -1118,7 +1118,7 @@ Object.assign(translations.it, {
   "case4.fact4.value": "Un generatore deterministico, un solver e un human solver verificano unicità, risolvibilità logica, difficoltà e varietà strutturale.",
   "case4.fact5.label": "Stato",
   "case4.fact5.value": "In sviluppo attivo come app Android Expo e React Native.",
-  "queens.meta.title": "Queens Era | Wittmer AppCare",
+  "queens.meta.title": "Queens Era Offline | Wittmer AppCare",
   "queens.meta.description": "Queens Era è un gioco di logica Android completamente offline con 21.300 livelli, griglie di varie dimensioni, suggerimenti e statistiche locali.",
   "queens.meta.ogDescription": "Rompicapi tranquilli con 21.300 livelli, completamente offline e senza account, cloud o pubblicità.",
   "queens.back": "Torna alla panoramica progetti",
@@ -1166,7 +1166,7 @@ Object.assign(translations.it, {
 });
 
 Object.assign(translations.de, {
-  "queensPrivacy.meta.title": "Datenschutz Queens Era | Wittmer AppCare",
+  "queensPrivacy.meta.title": "Datenschutz Queens Era Offline | Wittmer AppCare",
   "queensPrivacy.meta.description": "Datenschutzerklärung für die vollständig offline funktionierende App Queens Era.",
   "queensPrivacy.back": "Zurück zu Queens Era",
   "queensPrivacy.kicker": "Queens Era",
@@ -1197,7 +1197,7 @@ Object.assign(translations.de, {
 });
 
 Object.assign(translations.en, {
-  "queensPrivacy.meta.title": "Queens Era Privacy Policy | Wittmer AppCare",
+  "queensPrivacy.meta.title": "Queens Era Offline Privacy Policy | Wittmer AppCare",
   "queensPrivacy.meta.description": "Privacy policy for Queens Era, a fully offline app.",
   "queensPrivacy.back": "Back to Queens Era",
   "queensPrivacy.kicker": "Queens Era",
@@ -1228,7 +1228,7 @@ Object.assign(translations.en, {
 });
 
 Object.assign(translations.fr, {
-  "queensPrivacy.meta.title": "Confidentialité Queens Era | Wittmer AppCare",
+  "queensPrivacy.meta.title": "Confidentialité Queens Era Offline | Wittmer AppCare",
   "queensPrivacy.meta.description": "Politique de confidentialité de l'app Queens Era, entièrement hors ligne.",
   "queensPrivacy.back": "Retour à Queens Era",
   "queensPrivacy.kicker": "Queens Era",
@@ -1259,7 +1259,7 @@ Object.assign(translations.fr, {
 });
 
 Object.assign(translations.it, {
-  "queensPrivacy.meta.title": "Privacy Queens Era | Wittmer AppCare",
+  "queensPrivacy.meta.title": "Privacy Queens Era Offline | Wittmer AppCare",
   "queensPrivacy.meta.description": "Informativa privacy per Queens Era, un'app completamente offline.",
   "queensPrivacy.back": "Torna a Queens Era",
   "queensPrivacy.kicker": "Queens Era",
@@ -1290,7 +1290,7 @@ Object.assign(translations.it, {
 });
 
 Object.assign(translations.de, {
-  "queensImprint.meta.title": "Impressum Queens Era | Wittmer AppCare",
+  "queensImprint.meta.title": "Impressum Queens Era Offline | Wittmer AppCare",
   "queensImprint.meta.description": "Anbieterinformationen zu Queens Era von Wittmer AppCare.",
   "queensImprint.back": "Zurück zu Queens Era",
   "queensImprint.kicker": "Rechtliche Angaben",
@@ -1304,7 +1304,7 @@ Object.assign(translations.de, {
 });
 
 Object.assign(translations.en, {
-  "queensImprint.meta.title": "Queens Era Legal Notice | Wittmer AppCare",
+  "queensImprint.meta.title": "Queens Era Offline Legal Notice | Wittmer AppCare",
   "queensImprint.meta.description": "Publisher information for Queens Era by Wittmer AppCare.",
   "queensImprint.back": "Back to Queens Era",
   "queensImprint.kicker": "Legal information",
@@ -1318,7 +1318,7 @@ Object.assign(translations.en, {
 });
 
 Object.assign(translations.fr, {
-  "queensImprint.meta.title": "Mentions légales Queens Era | Wittmer AppCare",
+  "queensImprint.meta.title": "Mentions légales Queens Era Offline | Wittmer AppCare",
   "queensImprint.meta.description": "Informations sur le fournisseur de Queens Era par Wittmer AppCare.",
   "queensImprint.back": "Retour à Queens Era",
   "queensImprint.kicker": "Informations juridiques",
@@ -1332,7 +1332,7 @@ Object.assign(translations.fr, {
 });
 
 Object.assign(translations.it, {
-  "queensImprint.meta.title": "Note legali Queens Era | Wittmer AppCare",
+  "queensImprint.meta.title": "Note legali Queens Era Offline | Wittmer AppCare",
   "queensImprint.meta.description": "Informazioni sul fornitore di Queens Era da parte di Wittmer AppCare.",
   "queensImprint.back": "Torna a Queens Era",
   "queensImprint.kicker": "Informazioni legali",
@@ -1390,7 +1390,7 @@ Object.assign(translations.de, {
   "queensPrivacy.services.copy": "Die App fordert keine sensiblen Geräteberechtigungen an und verwendet keine Werbung oder Werbe-Tracking. Für Kaufstatus und Kaufhistorie wird RevenueCat als Dienstleister eingesetzt.",
   "queensPrivacy.deletion.copy": "Über „Einstellungen → Ganzer Spielstand zurücksetzen“ können lokal gespeicherte App-Daten gelöscht werden. Für Anfragen zur Löschung von RevenueCat-Kundendaten kontaktieren Sie bitte queensera@wittmerappcare.ch.",
   "queensPrivacy.updated.copy": "18. Juli 2026",
-  "queensTerms.meta.title": "Nutzungsbedingungen Queens Era | Wittmer AppCare",
+  "queensTerms.meta.title": "Nutzungsbedingungen Queens Era Offline | Wittmer AppCare",
   "queensTerms.meta.description": "Nutzungsbedingungen für Queens Era von Wittmer AppCare.",
   "queensTerms.back": "Zurück zu Queens Era",
   "queensTerms.kicker": "Queens Era",
@@ -1405,7 +1405,7 @@ Object.assign(translations.de, {
   "queensTerms.law.title": "Anwendbares Recht und Gerichtsstand",
   "queensTerms.law.copy": "Es gilt Schweizer Recht. Gerichtsstand ist, soweit gesetzlich zulässig, der Sitz von Wittmer AppCare.",
   "queensTerms.contact.title": "Kontakt",
-  "queensSupport.meta.title": "Support Queens Era | Wittmer AppCare",
+  "queensSupport.meta.title": "Support Queens Era Offline | Wittmer AppCare",
   "queensSupport.meta.description": "Support und Kontakt für Queens Era.",
   "queensSupport.back": "Zurück zu Queens Era",
   "queensSupport.kicker": "Queens Era",
@@ -1459,7 +1459,7 @@ Object.assign(translations.en, {
   "queensPrivacy.services.copy": "The app does not request sensitive device permissions and does not use advertising or advertising tracking. RevenueCat is used as a service provider for purchase status and purchase history.",
   "queensPrivacy.deletion.copy": "Use “Settings → Reset all game progress” to delete locally stored app data. For requests to delete RevenueCat customer data, please contact queensera@wittmerappcare.ch.",
   "queensPrivacy.updated.copy": "July 18, 2026",
-  "queensTerms.meta.title": "Queens Era Terms | Wittmer AppCare",
+  "queensTerms.meta.title": "Queens Era Offline Terms | Wittmer AppCare",
   "queensTerms.meta.description": "Terms of use for Queens Era by Wittmer AppCare.",
   "queensTerms.back": "Back to Queens Era",
   "queensTerms.kicker": "Queens Era",
@@ -1474,7 +1474,7 @@ Object.assign(translations.en, {
   "queensTerms.law.title": "Governing law and jurisdiction",
   "queensTerms.law.copy": "Swiss law applies. To the extent permitted by law, the place of jurisdiction is the registered office of Wittmer AppCare.",
   "queensTerms.contact.title": "Contact",
-  "queensSupport.meta.title": "Queens Era Support | Wittmer AppCare",
+  "queensSupport.meta.title": "Queens Era Offline Support | Wittmer AppCare",
   "queensSupport.meta.description": "Support and contact for Queens Era.",
   "queensSupport.back": "Back to Queens Era",
   "queensSupport.kicker": "Queens Era",
@@ -1507,10 +1507,12 @@ Object.assign(translations.fr, {
   "queens.cta.playStore": "Google Play - Coming soon",
   "queensPrivacy.purchases.title": "Achats et RevenueCat",
   "queensPrivacy.updated.copy": "18 juillet 2026",
+  "queensTerms.meta.title": "Conditions d'utilisation Queens Era Offline | Wittmer AppCare",
   "queensTerms.title": "Conditions d'utilisation",
   "queensTerms.lead": "Ces conditions s'appliquent à l'utilisation de l'app Queens Era.",
   "queensTerms.law.title": "Droit applicable et for juridique",
   "queensTerms.law.copy": "Le droit suisse s'applique. Dans la mesure où la loi le permet, le for juridique est au siège de Wittmer AppCare.",
+  "queensSupport.meta.title": "Support Queens Era Offline | Wittmer AppCare",
   "queensSupport.title": "Support"
 });
 
@@ -1536,10 +1538,12 @@ Object.assign(translations.it, {
   "queens.cta.playStore": "Google Play - Coming soon",
   "queensPrivacy.purchases.title": "Acquisti e RevenueCat",
   "queensPrivacy.updated.copy": "18 luglio 2026",
+  "queensTerms.meta.title": "Condizioni d'uso Queens Era Offline | Wittmer AppCare",
   "queensTerms.title": "Condizioni d'uso",
   "queensTerms.lead": "Le presenti condizioni si applicano all'utilizzo dell'app Queens Era.",
   "queensTerms.law.title": "Diritto applicabile e foro competente",
   "queensTerms.law.copy": "Si applica il diritto svizzero. Nella misura consentita dalla legge, il foro competente è presso la sede di Wittmer AppCare.",
+  "queensSupport.meta.title": "Supporto Queens Era Offline | Wittmer AppCare",
   "queensSupport.title": "Supporto"
 });
 
