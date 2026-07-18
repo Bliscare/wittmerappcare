@@ -1329,6 +1329,47 @@ h3 {
   color: #885b8f;
 }
 
+.queens-launch {
+  margin-top: 30px;
+}
+
+.queens-launch-note {
+  margin: 0 0 18px;
+  color: #75427e;
+  font-family: "Segoe Print", "Bradley Hand ITC", "Comic Sans MS", cursive;
+  font-size: clamp(35px, 5vw, 56px);
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0;
+  text-shadow: 0 8px 24px rgba(117, 66, 126, 0.16);
+  transform: rotate(-3deg);
+  transform-origin: left center;
+}
+
+.queens-store-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: center;
+}
+
+.queens-store-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  text-decoration: none;
+}
+
+.queens-store-badge[aria-disabled="true"] {
+  cursor: default;
+}
+
+.queens-store-badge img {
+  display: block;
+  width: auto;
+  height: 48px;
+}
+
 .queens-hero-art {
   aspect-ratio: 3 / 2;
   object-fit: cover;
@@ -1365,6 +1406,27 @@ h3 {
 }
 
 @media (max-width: 700px) {
+  .queens-launch {
+    margin-top: 24px;
+  }
+
+  .queens-launch-note {
+    margin-bottom: 14px;
+    font-size: clamp(32px, 11vw, 44px);
+  }
+
+  .queens-store-badges {
+    gap: 12px;
+  }
+
+  .queens-store-badge {
+    min-height: 43px;
+  }
+
+  .queens-store-badge img {
+    height: 43px;
+  }
+
   .queens-phone-shot {
     height: 520px;
     padding-top: 22px;
