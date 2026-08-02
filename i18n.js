@@ -1432,7 +1432,29 @@ Object.assign(translations.it, {
   "queensSupport.deletion.copy": "I dati locali dell’app possono essere eliminati tramite «Impostazioni → Reimposta tutti i progressi». I dati di acquisto RevenueCat possono essere eliminati direttamente nell’app tramite «Impostazioni → Privacy → Elimina dati di acquisto RevenueCat», finché l’app è installata. La ricevuta di acquisto resta memorizzata presso Apple o Google."
 });
 
-;
+Object.assign(translations.de, {
+  "queensPrivacy.noProfile.title": "Löschung ohne RevenueCat-Profil",
+  "queensPrivacy.noProfile.copy": "Wenn die Kauf- oder Wiederherstellungsfunktion auf einer Installation noch nie geöffnet wurde, wurde RevenueCat dort nicht aktiviert und es besteht kein RevenueCat-Profil. Die Löschfunktion bleibt dennoch erreichbar und entfernt in diesem Fall lediglich eventuell lokal zwischengespeicherte Kaufdaten, ohne ein RevenueCat-Profil anzulegen.",
+  "queensPrivacy.updated.copy": "2. August 2026"
+});
+
+Object.assign(translations.en, {
+  "queensPrivacy.noProfile.title": "Deletion when no RevenueCat profile exists",
+  "queensPrivacy.noProfile.copy": "If the purchase or restore function has never been opened on an installation, RevenueCat has not been activated there and no RevenueCat profile exists. The deletion function remains available and in this case only removes any locally cached purchase data without creating a RevenueCat profile.",
+  "queensPrivacy.updated.copy": "August 2, 2026"
+});
+
+Object.assign(translations.fr, {
+  "queensPrivacy.noProfile.title": "Suppression sans profil RevenueCat",
+  "queensPrivacy.noProfile.copy": "Si la fonction d’achat ou de restauration n’a jamais été ouverte sur une installation, RevenueCat n’y a pas été activé et aucun profil RevenueCat n’existe. La fonction de suppression reste disponible et ne supprime alors que les éventuelles données d’achat mises en cache localement, sans créer de profil RevenueCat.",
+  "queensPrivacy.updated.copy": "2 août 2026"
+});
+
+Object.assign(translations.it, {
+  "queensPrivacy.noProfile.title": "Eliminazione senza profilo RevenueCat",
+  "queensPrivacy.noProfile.copy": "Se la funzione di acquisto o ripristino non è mai stata aperta in un’installazione, RevenueCat non è stato attivato e non esiste alcun profilo RevenueCat. La funzione di eliminazione resta comunque disponibile e in questo caso rimuove soltanto eventuali dati di acquisto memorizzati localmente, senza creare un profilo RevenueCat.",
+  "queensPrivacy.updated.copy": "2 agosto 2026"
+});
 
 const queensStoreBadges = {
   de: {
@@ -1532,7 +1554,13 @@ try {
   savedLanguage = "de";
 }
 
-applyLanguage(savedLanguage);
+// Links opened from an app can pin the language explicitly. This must win over
+// an older browser preference; otherwise an English app could still land on a
+// German legal document (or vice versa).
+const linkedLanguage = new URLSearchParams(window.location.search).get("lang");
+applyLanguage(
+  Object.prototype.hasOwnProperty.call(translations, linkedLanguage) ? linkedLanguage : savedLanguage,
+);
 
 if (trigger && menu) {
   trigger.addEventListener("click", () => {
