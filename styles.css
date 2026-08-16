@@ -1329,6 +1329,30 @@ h3 {
   color: #885b8f;
 }
 
+.queens-project-icon,
+.queens-product-main .product-icon {
+  object-fit: cover;
+  background: transparent;
+  box-shadow: none;
+}
+
+.queens-project-icon {
+  width: 64px;
+  height: 65px;
+  border-radius: 16px;
+}
+
+.queens-product-main .product-icon-wrap,
+.queens-product-main .product-icon {
+  width: 88px;
+  height: 90px;
+  border-radius: 20px;
+}
+
+.queens-product-main .product-icon-wrap {
+  overflow: hidden;
+}
+
 .queens-launch {
   margin-top: 30px;
 }
@@ -1406,6 +1430,19 @@ h3 {
 }
 
 @media (max-width: 700px) {
+  .queens-project-icon {
+    width: 56px;
+    height: 57px;
+    border-radius: 14px;
+  }
+
+  .queens-product-main .product-icon-wrap,
+  .queens-product-main .product-icon {
+    width: 60px;
+    height: 61px;
+    border-radius: 14px;
+  }
+
   .queens-launch {
     margin-top: 24px;
   }
