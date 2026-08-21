@@ -1492,6 +1492,94 @@ Object.assign(translations.it, {
   "queensPrivacy.updated.copy": "9 agosto 2026"
 });
 
+Object.assign(translations.de, {
+  "case.more": "Projektdetails",
+  "case.less": "Details schliessen",
+  "work.fifth.title": "Hourly",
+  "work.fifth.copy": "Web-App zur sicheren Erfassung persönlicher Arbeitszeiten mit Konto, verschlüsselter Übertragung und cloudbasierter Zuordnung.",
+  "work.fifth.status": "Online verfügbar",
+  "work.fifth.link": "Zu Hourly",
+  "case5.kicker": "Projekt 05",
+  "case5.title": "Hourly - Arbeitszeiten einfach und sicher erfassen.",
+  "case5.copy": "Hourly bringt die persönliche Zeiterfassung in eine klare Web-App. Arbeitszeiten werden sicher übertragen, dem eigenen Konto zugeordnet und bleiben nach der Anmeldung zentral verfügbar.",
+  "case5.fact1.label": "Aufgabe",
+  "case5.fact1.value": "Persönliche Arbeitszeiten in einer übersichtlichen Anwendung erfassen und zuverlässig dem eigenen Konto zuordnen.",
+  "case5.fact2.label": "Zugang",
+  "case5.fact2.value": "Die Anmeldung erfolgt per E-Mail und Passwort. Neue Nutzende können direkt über die Landingpage ein persönliches Konto anlegen.",
+  "case5.fact3.label": "Datenschutz",
+  "case5.fact3.value": "Arbeitszeiten werden verschlüsselt übertragen und ausschliesslich dem persönlichen Konto zugeordnet.",
+  "case5.fact4.label": "Datenübernahme",
+  "case5.fact4.value": "Die Daten werden in der Convex-Cloud gespeichert. Bereits lokal erfasste Daten können nach der Anmeldung einmalig übernommen werden.",
+  "case5.fact5.label": "Status",
+  "case5.fact5.value": "Online verfügbar. Die Landingpage führt direkt zur Anmeldung oder Registrierung."
+});
+
+Object.assign(translations.en, {
+  "case.more": "Project details",
+  "case.less": "Close details",
+  "work.fifth.title": "Hourly",
+  "work.fifth.copy": "Web app for securely tracking personal working hours with an account, encrypted transmission, and cloud-based assignment.",
+  "work.fifth.status": "Available online",
+  "work.fifth.link": "Go to Hourly",
+  "case5.kicker": "Project 05",
+  "case5.title": "Hourly - simple and secure time tracking.",
+  "case5.copy": "Hourly brings personal time tracking into a clear web app. Working hours are transmitted securely, assigned to the user's own account, and remain centrally available after signing in.",
+  "case5.fact1.label": "Purpose",
+  "case5.fact1.value": "Track personal working hours in a clear application and reliably assign them to the user's own account.",
+  "case5.fact2.label": "Access",
+  "case5.fact2.value": "Users sign in with their email address and password. New users can create a personal account directly from the landing page.",
+  "case5.fact3.label": "Data protection",
+  "case5.fact3.value": "Working hours are transmitted in encrypted form and assigned exclusively to the personal account.",
+  "case5.fact4.label": "Data migration",
+  "case5.fact4.value": "Data is stored in the Convex cloud. Existing locally recorded data can be migrated once after signing in.",
+  "case5.fact5.label": "Status",
+  "case5.fact5.value": "Available online. The landing page leads directly to sign-in or registration."
+});
+
+Object.assign(translations.fr, {
+  "case.more": "Détails du projet",
+  "case.less": "Fermer les détails",
+  "work.fifth.title": "Hourly",
+  "work.fifth.copy": "Application web pour saisir ses heures de travail en toute sécurité avec un compte, une transmission chiffrée et une attribution dans le cloud.",
+  "work.fifth.status": "Disponible en ligne",
+  "work.fifth.link": "Accéder à Hourly",
+  "case5.kicker": "Projet 05",
+  "case5.title": "Hourly - saisir ses heures simplement et en toute sécurité.",
+  "case5.copy": "Hourly réunit le suivi personnel du temps dans une application web claire. Les heures de travail sont transmises en toute sécurité, attribuées au compte personnel et restent disponibles de manière centralisée après la connexion.",
+  "case5.fact1.label": "Objectif",
+  "case5.fact1.value": "Saisir ses heures de travail dans une application claire et les attribuer de manière fiable à son propre compte.",
+  "case5.fact2.label": "Accès",
+  "case5.fact2.value": "La connexion se fait par adresse e-mail et mot de passe. Les nouvelles personnes peuvent créer un compte personnel directement depuis la page d'accueil.",
+  "case5.fact3.label": "Protection des données",
+  "case5.fact3.value": "Les heures de travail sont transmises sous forme chiffrée et attribuées exclusivement au compte personnel.",
+  "case5.fact4.label": "Migration des données",
+  "case5.fact4.value": "Les données sont enregistrées dans le cloud Convex. Les données déjà saisies localement peuvent être transférées une seule fois après la connexion.",
+  "case5.fact5.label": "Statut",
+  "case5.fact5.value": "Disponible en ligne. La page d'accueil mène directement à la connexion ou à l'inscription."
+});
+
+Object.assign(translations.it, {
+  "case.more": "Dettagli del progetto",
+  "case.less": "Chiudi i dettagli",
+  "work.fifth.title": "Hourly",
+  "work.fifth.copy": "Web app per registrare in modo sicuro le ore di lavoro personali con account, trasmissione crittografata e assegnazione nel cloud.",
+  "work.fifth.status": "Disponibile online",
+  "work.fifth.link": "Vai a Hourly",
+  "case5.kicker": "Progetto 05",
+  "case5.title": "Hourly - registrazione delle ore semplice e sicura.",
+  "case5.copy": "Hourly riunisce la registrazione personale delle ore in una web app chiara. Le ore di lavoro vengono trasmesse in modo sicuro, assegnate al proprio account e restano disponibili in modo centralizzato dopo l'accesso.",
+  "case5.fact1.label": "Obiettivo",
+  "case5.fact1.value": "Registrare le ore di lavoro personali in un'applicazione chiara e assegnarle in modo affidabile al proprio account.",
+  "case5.fact2.label": "Accesso",
+  "case5.fact2.value": "L'accesso avviene tramite indirizzo e-mail e password. Le nuove persone possono creare un account personale direttamente dalla landing page.",
+  "case5.fact3.label": "Protezione dei dati",
+  "case5.fact3.value": "Le ore di lavoro vengono trasmesse in forma crittografata e assegnate esclusivamente all'account personale.",
+  "case5.fact4.label": "Migrazione dei dati",
+  "case5.fact4.value": "I dati vengono salvati nel cloud Convex. I dati già registrati localmente possono essere trasferiti una sola volta dopo l'accesso.",
+  "case5.fact5.label": "Stato",
+  "case5.fact5.value": "Disponibile online. La landing page porta direttamente all'accesso o alla registrazione."
+});
+
 const queensStoreBadges = {
   de: {
     apple: "/images/app-store-badge-de.png",
