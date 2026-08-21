@@ -1686,6 +1686,26 @@ applyLanguage(
   Object.prototype.hasOwnProperty.call(translations, linkedLanguage) ? linkedLanguage : savedLanguage,
 );
 
+const detailSlots = document.querySelectorAll(".work-details-slot");
+const caseSections = Array.from(document.querySelectorAll(".case-section"));
+
+detailSlots.forEach((slot, index) => {
+  const section = caseSections[index];
+  const disclosure = section?.querySelector(".case-disclosure");
+  const slogan = section?.querySelector("h2");
+  const detailCopy = disclosure?.querySelector(".case-copy");
+
+  if (!disclosure) return;
+
+  if (slogan && detailCopy) {
+    slogan.classList.add("work-slogan");
+    detailCopy.prepend(slogan);
+  }
+
+  slot.append(disclosure);
+  section.remove();
+});
+
 if (trigger && menu) {
   trigger.addEventListener("click", () => {
     const isOpen = trigger.getAttribute("aria-expanded") === "true";
