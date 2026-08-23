@@ -3,7 +3,7 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
   X-Frame-Options: DENY
-  Content-Security-Policy: default-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data:; script-src 'self'; style-src 'self'; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data:; script-src 'self' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com; style-src 'self'; upgrade-insecure-requests
   Strict-Transport-Security: max-age=31536000; includeSubDomains
   Cross-Origin-Opener-Policy: same-origin
 
@@ -37,6 +37,18 @@
 /queens-era/impressum.html
   Content-Type: text/html; charset=utf-8
 
+/queens-era/nutzungsbedingungen
+  Content-Type: text/html; charset=utf-8
+
+/queens-era/nutzungsbedingungen.html
+  Content-Type: text/html; charset=utf-8
+
+/queens-era/support
+  Content-Type: text/html; charset=utf-8
+
+/queens-era/support.html
+  Content-Type: text/html; charset=utf-8
+
 /impressum
   Content-Type: text/html; charset=utf-8
 
@@ -54,6 +66,13 @@
 
 /styles.css
   Content-Type: text/css; charset=utf-8
+  Cache-Control: public, max-age=86400
 
 /i18n.js
   Content-Type: application/javascript; charset=utf-8
+  Cache-Control: public, max-age=86400
+
+# Bilddateien wechseln nur ueber einen neuen Dateinamen oder ?v=,
+# darum darf der Browser sie dauerhaft behalten.
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
