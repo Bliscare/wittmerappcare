@@ -1,39 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://wittmerappcare.ch/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-08-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wittmerappcare.ch/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wittmerappcare.ch/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wittmerappcare.ch/?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://wittmerappcare.ch/?lang=it" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wittmerappcare.ch/" />
   </url>
   <url>
     <loc>https://wittmerappcare.ch/saldocare</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-08-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wittmerappcare.ch/saldocare" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wittmerappcare.ch/saldocare?lang=en" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wittmerappcare.ch/saldocare?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://wittmerappcare.ch/saldocare?lang=it" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wittmerappcare.ch/saldocare" />
   </url>
   <url>
     <loc>https://wittmerappcare.ch/queens-era</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-08-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wittmerappcare.ch/queens-era" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wittmerappcare.ch/queens-era?lang=en" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wittmerappcare.ch/queens-era?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://wittmerappcare.ch/queens-era?lang=it" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wittmerappcare.ch/queens-era" />
   </url>
   <url>
     <loc>https://wittmerappcare.ch/queens-era/datenschutz</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-08-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wittmerappcare.ch/queens-era/datenschutz" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wittmerappcare.ch/queens-era/datenschutz?lang=en" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wittmerappcare.ch/queens-era/datenschutz?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://wittmerappcare.ch/queens-era/datenschutz?lang=it" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wittmerappcare.ch/queens-era/datenschutz" />
   </url>
   <url>
     <loc>https://wittmerappcare.ch/queens-era/impressum</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-08-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wittmerappcare.ch/queens-era/impressum" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wittmerappcare.ch/queens-era/impressum?lang=en" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wittmerappcare.ch/queens-era/impressum?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://wittmerappcare.ch/queens-era/impressum?lang=it" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wittmerappcare.ch/queens-era/impressum" />
   </url>
   <url>
     <loc>https://wittmerappcare.ch/queens-era/nutzungsbedingungen</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-08-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wittmerappcare.ch/queens-era/nutzungsbedingungen" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wittmerappcare.ch/queens-era/nutzungsbedingungen?lang=en" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wittmerappcare.ch/queens-era/nutzungsbedingungen?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://wittmerappcare.ch/queens-era/nutzungsbedingungen?lang=it" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wittmerappcare.ch/queens-era/nutzungsbedingungen" />
   </url>
   <url>
     <loc>https://wittmerappcare.ch/queens-era/support</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-08-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wittmerappcare.ch/queens-era/support" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wittmerappcare.ch/queens-era/support?lang=en" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wittmerappcare.ch/queens-era/support?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://wittmerappcare.ch/queens-era/support?lang=it" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wittmerappcare.ch/queens-era/support" />
   </url>
   <url>
     <loc>https://wittmerappcare.ch/impressum</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-08-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wittmerappcare.ch/impressum" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wittmerappcare.ch/impressum?lang=en" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wittmerappcare.ch/impressum?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://wittmerappcare.ch/impressum?lang=it" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wittmerappcare.ch/impressum" />
   </url>
   <url>
     <loc>https://wittmerappcare.ch/datenschutz</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-08-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wittmerappcare.ch/datenschutz" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wittmerappcare.ch/datenschutz?lang=en" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wittmerappcare.ch/datenschutz?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://wittmerappcare.ch/datenschutz?lang=it" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wittmerappcare.ch/datenschutz" />
   </url>
 </urlset>

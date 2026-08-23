@@ -24,6 +24,23 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Wer Bewegung im Betriebssystem abgestellt hat, bekommt weiches Scrollen und
+   Uebergaenge nicht aufgezwungen - fuer manche loesen sie Schwindel aus. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -101,6 +118,30 @@ img {
   color: var(--ink-muted);
   font-size: 14px;
   font-weight: 760;
+}
+
+.nav-toggle {
+  display: none;
+  width: 40px;
+  height: 40px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.74);
+  color: var(--ink);
+  cursor: pointer;
+  padding: 0;
+}
+
+.nav-toggle-bar {
+  display: block;
+  width: 15px;
+  height: 1.6px;
+  border-radius: 2px;
+  background: currentColor;
 }
 
 .nav a,
@@ -822,12 +863,51 @@ h3 {
 }
 
 @media (max-width: 900px) {
+  /* Die Hauptnavigation wandert in ein Ausklappmenue, statt ersatzlos zu
+     verschwinden - sonst ist der Kontakt auf dem Telefon nur per Scrollen
+     erreichbar. */
+  .header-inner {
+    position: relative;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+  }
+
   .nav {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    z-index: 30;
     display: none;
+    min-width: 200px;
+    flex-direction: column;
+    gap: 2px;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    background: var(--white);
+    padding: 8px;
+    box-shadow: 0 24px 48px rgba(13, 30, 52, 0.16);
+  }
+
+  .nav[data-open="true"] {
+    display: flex;
+  }
+
+  .nav a {
+    border-radius: 12px;
+    padding: 11px 14px;
+    color: var(--ink);
+    font-size: 15px;
+  }
+
+  .nav a:hover {
+    background: var(--soft);
   }
 
   .header-actions {
     margin-left: auto;
+    gap: 12px;
   }
 
   .hero-layout,

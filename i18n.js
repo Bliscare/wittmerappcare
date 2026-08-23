@@ -1,8 +1,12 @@
 ﻿const translations = {
   de: {
+    "home.meta.title": "Wittmer AppCare | Portfolio",
+    "home.meta.description": "Portfolio von Wittmer AppCare: ausgewählte digitale Arbeiten und Projekte von Janine Wittmer.",
+    "home.meta.ogDescription": "Ausgewählte Arbeiten, Projekte und digitale Konzepte von Wittmer AppCare.",
     "nav.work": "Projekte",
     "nav.profile": "Profil",
     "nav.contact": "Kontakt",
+    "nav.menu": "Menü",
     "hero.kicker": "Portfolio / 2026",
     "hero.title": "Ausgewählte digitale Arbeiten.",
     "hero.copy":
@@ -102,9 +106,13 @@
     "notFound.back": "Zur Startseite",
   },
   en: {
+    "home.meta.title": "Wittmer AppCare | Portfolio",
+    "home.meta.description": "Portfolio of Wittmer AppCare: selected digital work and projects by Janine Wittmer.",
+    "home.meta.ogDescription": "Selected work, projects and digital concepts by Wittmer AppCare.",
     "nav.work": "Projects",
     "nav.profile": "Profile",
     "nav.contact": "Contact",
+    "nav.menu": "Menu",
     "hero.kicker": "Portfolio / 2026",
     "hero.title": "Selected digital work.",
     "hero.copy":
@@ -222,9 +230,13 @@
     "notFound.back": "Back to homepage",
   },
   fr: {
+    "home.meta.title": "Wittmer AppCare | Portfolio",
+    "home.meta.description": "Portfolio de Wittmer AppCare : travaux et projets numériques sélectionnés de Janine Wittmer.",
+    "home.meta.ogDescription": "Travaux, projets et concepts numériques sélectionnés de Wittmer AppCare.",
     "nav.work": "Projets",
     "nav.profile": "Profil",
     "nav.contact": "Contact",
+    "nav.menu": "Menu",
     "hero.kicker": "Portfolio / 2026",
     "hero.title": "Travaux numériques sélectionnés.",
     "hero.copy":
@@ -342,9 +354,13 @@
     "notFound.back": "Retour à l'accueil",
   },
   it: {
+    "home.meta.title": "Wittmer AppCare | Portfolio",
+    "home.meta.description": "Portfolio di Wittmer AppCare: lavori e progetti digitali selezionati di Janine Wittmer.",
+    "home.meta.ogDescription": "Lavori, progetti e concetti digitali selezionati di Wittmer AppCare.",
     "nav.work": "Progetti",
     "nav.profile": "Profilo",
     "nav.contact": "Contatto",
+    "nav.menu": "Menu",
     "hero.kicker": "Portfolio / 2026",
     "hero.title": "Lavori digitali selezionati.",
     "hero.copy":
@@ -552,7 +568,6 @@ Object.assign(translations.de, {
   "queens.back": "Zurück zur Projektübersicht",
   "queens.hero.iconAlt": "Queens Era Icon",
   "queens.kicker": "Projekt 04 / 2026",
-  "queens.hero.metaAria": "Produktmerkmale",
   "queens.hero.mediaAlt": "Queens Era mit App-Icon, Spielfeld und Produktmerkmalen",
   "queens.compact.kicker": "Kompakt",
   "queens.compact.title": "Ein Logikspiel ohne Ablenkung.",
@@ -624,19 +639,12 @@ Object.assign(translations.de, {
   "queens.meta.description": "Queens Era ist ein ruhiges Logikspiel für iPhone und Android: 50 Levels gratis, danach Vollversion als einmaliger In-App-Kauf.",
   "queens.meta.ogDescription": "Ruhige Logikrätsel ohne Konto und ohne Werbung. Jetzt für iPhone und Android verfügbar: 50 Levels gratis, danach Vollversion als einmaliger Kauf.",
   "queens.lead": "Anspruchsvolle Queens-Rätsel in einer ruhigen App für iPhone und Android - 50 Levels gratis, danach Vollversion als einmaliger Kauf.",
-  "queens.hero.meta.platform": "iPhone & Android",
-  "queens.hero.meta.levels": "50 Levels gratis",
-  "queens.hero.meta.offline": "iPhone & Android verfügbar",
   "queens.launch.aria": "Downloadstatus",
   "queens.launch.note": "Jetzt für iPhone und Android verfügbar",
   "queens.launch.appStoreAria": "Queens Era Offline im App Store öffnen",
   "queens.launch.appStoreAlt": "Laden im App Store",
-  "queens.launch.appStoreSmall": "Laden im",
-  "queens.launch.appStoreLarge": "App Store",
   "queens.launch.playStoreAria": "Queens Era Offline bei Google Play öffnen",
   "queens.launch.playStoreAlt": "Jetzt bei Google Play",
-  "queens.launch.playStoreSmall": "Jetzt bei",
-  "queens.launch.playStoreLarge": "Google Play",
   "queens.compact.scope.label": "Start",
   "queens.compact.scope.value": "50",
   "queens.compact.scope.body": "Die ersten 50 Levels sind gratis spielbar. Danach schaltet ein einmaliger In-App-Kauf die Vollversion frei.",
@@ -794,7 +802,6 @@ Object.assign(translations.en, {
   "queens.back": "Back to project overview",
   "queens.hero.iconAlt": "Queens Era icon",
   "queens.kicker": "Project 04 / 2026",
-  "queens.hero.metaAria": "Product features",
   "queens.hero.mediaAlt": "Queens Era with app icon, game board, and product features",
   "queens.compact.kicker": "At a glance",
   "queens.compact.title": "A logic game without distractions.",
@@ -864,19 +871,12 @@ Object.assign(translations.en, {
   "queens.meta.description": "Queens Era is a calm logic game for iPhone and Android: 50 levels free, then the full version as a one-time in-app purchase.",
   "queens.meta.ogDescription": "Calm logic puzzles without accounts or advertising. Available now for iPhone and Android: 50 levels free, then full version as a one-time purchase.",
   "queens.lead": "Challenging Queens puzzles in a calm app for iPhone and Android - 50 levels free, then full version as a one-time purchase.",
-  "queens.hero.meta.platform": "iPhone & Android",
-  "queens.hero.meta.levels": "50 levels free",
-  "queens.hero.meta.offline": "Available on iPhone & Android",
   "queens.launch.aria": "Download status",
   "queens.launch.note": "Available now for iPhone and Android",
   "queens.launch.appStoreAria": "Open Queens Era Offline on the App Store",
   "queens.launch.appStoreAlt": "Download on the App Store",
-  "queens.launch.appStoreSmall": "Download on the",
-  "queens.launch.appStoreLarge": "App Store",
   "queens.launch.playStoreAria": "Open Queens Era Offline on Google Play",
   "queens.launch.playStoreAlt": "Get it on Google Play",
-  "queens.launch.playStoreSmall": "Get it on",
-  "queens.launch.playStoreLarge": "Google Play",
   "queens.compact.scope.label": "Start",
   "queens.compact.scope.value": "50",
   "queens.compact.scope.body": "The first 50 levels are free to play. The full version is unlocked with a one-time in-app purchase.",
@@ -1038,7 +1038,6 @@ Object.assign(translations.fr, {
   "queens.hero.iconAlt": "Icône Queens Era",
   "queens.kicker": "Projet 04 / 2026",
   "queens.lead": "Des énigmes Queens exigeantes dans une app calme pour iPhone et Android - 50 niveaux gratuits, puis la version complète via un achat unique.",
-  "queens.hero.metaAria": "Caractéristiques du produit",
   "queens.hero.mediaAlt": "Queens Era avec icône, grille de jeu et caractéristiques du produit",
   "queens.compact.kicker": "En bref",
   "queens.compact.title": "Un jeu de logique sans distraction.",
@@ -1123,19 +1122,12 @@ Object.assign(translations.fr, {
   "queens.meta.description": "Queens Era est un jeu de logique calme pour iPhone et Android : 50 niveaux gratuits, puis la version complète via un achat intégré unique.",
   "queens.meta.ogDescription": "Des énigmes logiques calmes sans compte ni publicité. Disponible dès maintenant sur iPhone et Android : 50 niveaux gratuits, puis la version complète via un achat unique.",
   "queens.lead": "Des énigmes Queens exigeantes dans une app calme pour iPhone et Android - 50 niveaux gratuits, puis la version complète via un achat unique.",
-  "queens.hero.meta.platform": "iPhone & Android",
-  "queens.hero.meta.levels": "50 niveaux gratuits",
-  "queens.hero.meta.offline": "Disponible sur iPhone et Android",
   "queens.launch.aria": "Statut de téléchargement",
   "queens.launch.note": "Disponible sur iPhone et Android",
   "queens.launch.appStoreAria": "Ouvrir Queens Era Offline dans l’App Store",
   "queens.launch.appStoreAlt": "Télécharger dans l’App Store",
-  "queens.launch.appStoreSmall": "Télécharger dans",
-  "queens.launch.appStoreLarge": "l’App Store",
   "queens.launch.playStoreAria": "Ouvrir Queens Era Offline sur Google Play",
   "queens.launch.playStoreAlt": "Disponible sur Google Play",
-  "queens.launch.playStoreSmall": "Disponible sur",
-  "queens.launch.playStoreLarge": "Google Play",
   "queens.compact.scope.label": "Début",
   "queens.compact.scope.value": "50",
   "queens.compact.scope.body": "Les 50 premiers niveaux sont gratuits. La version complète est ensuite débloquée par un achat intégré unique.",
@@ -1296,7 +1288,6 @@ Object.assign(translations.it, {
   "queens.hero.iconAlt": "Icona Queens Era",
   "queens.kicker": "Progetto 04 / 2026",
   "queens.lead": "Rompicapi Queens impegnativi in un’app tranquilla per iPhone e Android - 50 livelli gratuiti, poi la versione completa con un unico acquisto.",
-  "queens.hero.metaAria": "Caratteristiche del prodotto",
   "queens.hero.mediaAlt": "Queens Era con icona, griglia di gioco e caratteristiche del prodotto",
   "queens.compact.kicker": "In breve",
   "queens.compact.title": "Un gioco di logica senza distrazioni.",
@@ -1381,19 +1372,12 @@ Object.assign(translations.it, {
   "queens.meta.description": "Queens Era è un tranquillo gioco di logica per iPhone e Android: 50 livelli gratuiti, poi la versione completa con un unico acquisto in-app.",
   "queens.meta.ogDescription": "Rompicapi tranquilli senza account né pubblicità. Ora disponibile per iPhone e Android: 50 livelli gratuiti, poi la versione completa con un unico acquisto.",
   "queens.lead": "Rompicapi Queens impegnativi in un’app tranquilla per iPhone e Android - 50 livelli gratuiti, poi la versione completa con un unico acquisto.",
-  "queens.hero.meta.platform": "iPhone e Android",
-  "queens.hero.meta.levels": "50 livelli gratuiti",
-  "queens.hero.meta.offline": "Disponibile per iPhone e Android",
   "queens.launch.aria": "Stato download",
   "queens.launch.note": "Disponibile per iPhone e Android",
   "queens.launch.appStoreAria": "Apri Queens Era Offline su App Store",
   "queens.launch.appStoreAlt": "Scarica su App Store",
-  "queens.launch.appStoreSmall": "Scarica su",
-  "queens.launch.appStoreLarge": "App Store",
   "queens.launch.playStoreAria": "Apri Queens Era Offline su Google Play",
   "queens.launch.playStoreAlt": "Disponibile su Google Play",
-  "queens.launch.playStoreSmall": "Disponibile su",
-  "queens.launch.playStoreLarge": "Google Play",
   "queens.compact.scope.label": "Inizio",
   "queens.compact.scope.value": "50",
   "queens.compact.scope.body": "I primi 50 livelli sono gratuiti. La versione completa viene poi sbloccata con un unico acquisto in-app.",
@@ -1633,6 +1617,15 @@ function applyLanguage(lang) {
     document.title = dictionary[titleKey];
   }
 
+  // Das Canonical muss auf die gerade angezeigte Sprachvariante zeigen. Bliebe es
+  // immer auf der deutschen URL, fasst Google die hreflang-Varianten wieder
+  // zusammen und indexiert nur eine Sprache.
+  const canonical = document.querySelector('link[rel="canonical"]');
+  if (canonical) {
+    const base = canonical.href.split("?")[0];
+    canonical.href = lang === "de" ? base : base + "?lang=" + lang;
+  }
+
   const meta = languageMeta[lang] || languageMeta.de;
   if (currentCode) {
     currentCode.textContent = meta.code;
@@ -1730,6 +1723,50 @@ if (trigger && menu) {
     if (event.key === "Escape") {
       closeMenu();
     }
+  });
+}
+
+const navToggle = document.querySelector(".nav-toggle");
+const navList = document.querySelector(".nav");
+
+function closeNav() {
+  if (!navToggle || !navList) return;
+  navList.removeAttribute("data-open");
+  navToggle.setAttribute("aria-expanded", "false");
+}
+
+if (navToggle && navList) {
+  navToggle.addEventListener("click", () => {
+    const isOpen = navToggle.getAttribute("aria-expanded") === "true";
+    if (isOpen) {
+      closeNav();
+    } else {
+      navList.setAttribute("data-open", "true");
+      navToggle.setAttribute("aria-expanded", "true");
+    }
+  });
+
+  // Nach der Auswahl schliessen, sonst verdeckt das Menue das Sprungziel.
+  navList.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", closeNav);
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!event.target.closest(".nav") && !event.target.closest(".nav-toggle")) {
+      closeNav();
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeNav();
+    }
+  });
+
+  // Beim Wechsel zurueck auf die Desktop-Breite darf kein offener Zustand
+  // haengen bleiben, sonst steht das Panel neben der Navigationsleiste.
+  window.matchMedia("(min-width: 901px)").addEventListener("change", (event) => {
+    if (event.matches) closeNav();
   });
 }
 

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="de-CH">
+<html lang="de-CH" data-page-title="home.meta.title">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -7,29 +7,43 @@
     <meta
       name="description"
       content="Portfolio von Wittmer AppCare: ausgewählte digitale Arbeiten und Projekte von Janine Wittmer."
+      data-i18n="home.meta.description"
+      data-i18n-attr="content"
     />
-    <meta property="og:title" content="Wittmer AppCare | Portfolio" />
+    <meta property="og:title" content="Wittmer AppCare | Portfolio" data-i18n="home.meta.title" data-i18n-attr="content" />
     <meta
       property="og:description"
       content="Ausgewählte Arbeiten, Projekte und digitale Konzepte von Wittmer AppCare."
+      data-i18n="home.meta.ogDescription"
+      data-i18n-attr="content"
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://wittmerappcare.ch/" />
-    <meta property="og:image" content="https://wittmerappcare.ch/images/wittmer-appcare-logo-web.png?v=2" />
+    <meta property="og:image" content="https://wittmerappcare.ch/images/wittmer-appcare-logo-web.png?v=3" />
     <link rel="canonical" href="https://wittmerappcare.ch/" />
-    <link rel="icon" href="/images/wittmer-appcare-logo-web.png?v=2" type="image/png" />
-    <link rel="apple-touch-icon" href="/images/wittmer-appcare-logo-web.png?v=2" />
-    <link rel="stylesheet" href="styles.css?v=21" />
+    <link rel="alternate" hreflang="de" href="https://wittmerappcare.ch/" />
+    <link rel="alternate" hreflang="en" href="https://wittmerappcare.ch/?lang=en" />
+    <link rel="alternate" hreflang="fr" href="https://wittmerappcare.ch/?lang=fr" />
+    <link rel="alternate" hreflang="it" href="https://wittmerappcare.ch/?lang=it" />
+    <link rel="alternate" hreflang="x-default" href="https://wittmerappcare.ch/" />
+    <link rel="icon" href="/images/wittmer-appcare-logo-web.png?v=3" type="image/png" />
+    <link rel="apple-touch-icon" href="/images/wittmer-appcare-logo-web.png?v=3" />
+    <link rel="stylesheet" href="styles.css?v=22" />
   </head>
   <body>
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="/" aria-label="Wittmer AppCare Startseite">
-          <img class="brand-mark" src="/images/wittmer-appcare-logo-web.png?v=2" alt="" width="32" height="32" />
+          <img class="brand-mark" src="/images/wittmer-appcare-logo-mark.webp" alt="" width="32" height="32" />
           <span>Wittmer AppCare</span>
         </a>
         <div class="header-actions">
-          <nav class="nav" aria-label="Hauptnavigation">
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="hauptnavigation" aria-label="Menü" data-i18n="nav.menu" data-i18n-attr="aria-label">
+            <span class="nav-toggle-bar" aria-hidden="true"></span>
+            <span class="nav-toggle-bar" aria-hidden="true"></span>
+            <span class="nav-toggle-bar" aria-hidden="true"></span>
+          </button>
+          <nav class="nav" id="hauptnavigation" aria-label="Hauptnavigation">
             <a href="#arbeiten" data-i18n="nav.work">Projekte</a>
             <a href="#profil" data-i18n="nav.profile">Profil</a>
             <a href="#kontakt" data-i18n="nav.contact">Kontakt</a>
@@ -74,7 +88,7 @@
         <div class="container hero-layout">
           <div class="hero-title">
             <span class="hero-logo-crop">
-              <img class="hero-logo" src="images/wittmer-appcare-logo-cropped.png" alt="Wittmer AppCare" width="1020" height="300" />
+              <img class="hero-logo" src="images/wittmer-appcare-logo-cropped.webp" alt="Wittmer AppCare" width="1020" height="300" />
             </span>
             <p class="eyebrow" data-i18n="hero.kicker">Portfolio / 2026</p>
             <h1 data-i18n="hero.title">Ausgewählte digitale Arbeiten.</h1>
@@ -114,7 +128,7 @@
           <article class="work-row">
             <div>
               <div class="project-title">
-                <img class="project-icon" src="images/bliscare-app-icon.png" alt="" width="64" height="64" />
+                <img class="project-icon" src="images/bliscare-app-icon.webp" alt="" width="64" height="64" />
                 <h3 data-i18n="work.one.title">Bliscare</h3>
               </div>
               <p data-i18n="work.one.copy">
@@ -136,7 +150,7 @@
           <article class="work-row">
             <div>
               <div class="project-title">
-                <img class="project-icon" src="images/shelfcare-app-icon.png" alt="" width="64" height="64" />
+                <img class="project-icon" src="images/shelfcare-app-icon.webp" alt="" width="64" height="64" />
                 <h3 data-i18n="work.two.title">Shelfcare</h3>
               </div>
               <p data-i18n="work.two.copy">
@@ -154,7 +168,7 @@
           <article class="work-row">
             <div>
               <div class="project-title">
-                <img class="project-icon" src="images/saldocare-app-icon.png" alt="" width="64" height="64" />
+                <img class="project-icon" src="images/saldocare-app-icon.webp" alt="" width="64" height="64" />
                 <h3 data-i18n="work.third.title">Saldocare</h3>
               </div>
               <p data-i18n="work.third.copy">
@@ -172,11 +186,11 @@
           <article class="work-row">
             <div>
               <div class="project-title">
-                <img class="project-icon queens-project-icon" src="images/queens-era-app-icon.png?v=4" alt="" width="64" height="64" />
+                <img class="project-icon queens-project-icon" src="images/queens-era-app-icon.webp" alt="" width="64" height="64" />
                 <h3 data-i18n="work.fourth.title">Queens Era</h3>
               </div>
               <p data-i18n="work.fourth.copy">
-                Offline-Logikspiel f&uuml;r Android mit 21'300 Levels, variablen Spielfeldgr&ouml;ssen, Hinweisen und lokaler Statistik.
+                Ruhiges Logikspiel für iPhone und Android. 50 Levels gratis, danach Vollversion als einmaliger Kauf.
               </p>
               <a class="project-link" href="/queens-era" data-i18n="work.fourth.link">Zu Queens Era</a>
               <div class="work-details-slot"></div>
@@ -190,7 +204,7 @@
           <article class="work-row">
             <div>
               <div class="project-title">
-                <img class="project-icon" src="images/hourly-app-icon.png" alt="" width="64" height="64" />
+                <img class="project-icon" src="images/hourly-app-icon.webp" alt="" width="64" height="64" />
                 <h3 data-i18n="work.fifth.title">Hourly</h3>
               </div>
               <p data-i18n="work.fifth.copy">
@@ -219,7 +233,7 @@
         <div class="container case-layout">
           <div>
             <p class="eyebrow" data-i18n="case1.kicker">Projekt 01</p>
-            <h2 data-i18n="case1.title">Bliscare - Medikamente zu Hause besser im Blick.</h2>
+            <h2 data-i18n="case1.title">Bliscare - Medikamente zu Hause besser im Griff.</h2>
           </div>
           <details class="case-disclosure">
             <summary class="case-toggle">
@@ -249,7 +263,7 @@
               </div>
               <div>
                 <dt data-i18n="case1.fact5.label">Status</dt>
-                <dd data-i18n="case1.fact5.value">Demnächst im App Store und Google Play verfügbar.</dd>
+                <dd data-i18n="case1.fact5.value">Demnächst im App Store und bei Google Play verfügbar.</dd>
               </div>
               </dl>
             </div>
@@ -345,7 +359,7 @@
         <div class="container case-layout">
           <div>
             <p class="eyebrow" data-i18n="case4.kicker">Projekt 04</p>
-            <h2 data-i18n="case4.title">Queens Era - anspruchsvolle Logikr&auml;tsel, komplett offline.</h2>
+            <h2 data-i18n="case4.title">Queens Era - anspruchsvolle, offline spielbare Logikrätsel.</h2>
           </div>
           <details class="case-disclosure">
             <summary class="case-toggle">
@@ -367,7 +381,7 @@
               </div>
               <div>
                 <dt data-i18n="case4.fact3.label">Zentrale Entscheidung</dt>
-                <dd data-i18n="case4.fact3.value">Keine Konten, keine Cloud, keine Werbung und keine Netzwerkberechtigungen. Fortschritt, Einstellungen und Statistik bleiben lokal auf dem Ger&auml;t.</dd>
+                <dd data-i18n="case4.fact3.value">Kein Konto und keine Werbung. Spielstand und Statistik bleiben lokal auf dem Gerät; Käufe laufen über App Store, Google Play und RevenueCat.</dd>
               </div>
               <div>
                 <dt data-i18n="case4.fact4.label">Technik</dt>
@@ -434,15 +448,13 @@
           <div class="profile-text">
             <img
               class="profile-photo"
-              src="images/janine-wittmer-profile.png"
+              src="images/janine-wittmer-profile.webp"
               alt="Janine Wittmer"
               width="1024"
               height="1024"
             />
             <p class="profile-bio" data-i18n="profile.bio">
-              Janine Wittmer arbeitet an der Schnittstelle von Produkt, Design
-              und Technik - mit Fokus auf mobile Apps und digitale Werkzeuge
-              für den Alltag.
+              Janine Wittmer arbeitet an der Schnittstelle von Produkt, Design und Technik - mit Fokus auf mobile Apps und digitale Werkzeuge für den Alltag. Gelernte Medizinische Praxisassistentin und seit Jahren als Cabin Crew bei SWISS - die Apps entstehen nebenbei, aber nicht nebenher.
             </p>
             <p data-i18n="profile.copy1">
               Der Anspruch ist, digitale Arbeiten zu schaffen, die nicht laut
@@ -480,6 +492,6 @@
         </div>
       </div>
     </footer>
-    <script src="/i18n.js?v=32"></script>
+    <script src="/i18n.js?v=33"></script>
   </body>
 </html>
