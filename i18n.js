@@ -78,6 +78,9 @@
     "privacy.lead":
       "Diese Hinweise gelten für die Website wittmerappcare.ch. Für einzelne Apps können ergänzende Datenschutzhinweise gelten.",
     "privacy.controller.title": "Verantwortliche Stelle",
+    "privacy.controller.imprintPrefix": "Vollständige Anbieterangaben finden Sie im",
+    "privacy.controller.imprintLink": "Impressum",
+    "privacy.controller.imprintSuffix": ".",
     "privacy.website.title": "Website-Nutzung",
     "privacy.website.copy":
       "Diese Website ist eine statische Portfolio- und Informationsseite. Es gibt kein Benutzerkonto, keinen Login, keine Kommentarfunktion und keine Eingabemaske für Gesundheitsdaten.",
@@ -202,6 +205,9 @@
     "privacy.lead":
       "This notice applies to the website wittmerappcare.ch. Individual apps may have additional privacy notices.",
     "privacy.controller.title": "Controller",
+    "privacy.controller.imprintPrefix": "Full publisher details are available in the",
+    "privacy.controller.imprintLink": "legal notice",
+    "privacy.controller.imprintSuffix": ".",
     "privacy.website.title": "Website use",
     "privacy.website.copy":
       "This website is a static portfolio and information page. There is no user account, login, comment function, or input form for health data.",
@@ -326,6 +332,9 @@
     "privacy.lead":
       "Ces informations s'appliquent au site wittmerappcare.ch. Certaines apps peuvent avoir des informations complémentaires sur la protection des données.",
     "privacy.controller.title": "Responsable",
+    "privacy.controller.imprintPrefix": "Vous trouverez les informations complètes sur le fournisseur dans les",
+    "privacy.controller.imprintLink": "mentions légales",
+    "privacy.controller.imprintSuffix": ".",
     "privacy.website.title": "Utilisation du site",
     "privacy.website.copy":
       "Ce site est une page statique de portfolio et d'information. Il n'y a pas de compte utilisateur, de connexion, de fonction de commentaire ni de formulaire pour des données de santé.",
@@ -450,6 +459,9 @@
     "privacy.lead":
       "Queste informazioni si applicano al sito wittmerappcare.ch. Le singole app possono avere informative privacy aggiuntive.",
     "privacy.controller.title": "Titolare",
+    "privacy.controller.imprintPrefix": "I dati completi del fornitore sono disponibili nelle",
+    "privacy.controller.imprintLink": "note legali",
+    "privacy.controller.imprintSuffix": ".",
     "privacy.website.title": "Uso del sito",
     "privacy.website.copy":
       "Questo sito è una pagina statica di portfolio e informazione. Non ci sono account utente, login, funzione commenti o moduli per dati sanitari.",
@@ -602,9 +614,6 @@ Object.assign(translations.de, {
   "queensPrivacy.controller.title": "Verantwortliche Stelle und Kontakt",
   "queensPrivacy.controller.company": "Wittmer AppCare, Einzelunternehmen",
   "queensPrivacy.controller.name": "Janine Wittmer",
-  "queensPrivacy.controller.postal": "Postfach 411",
-  "queensPrivacy.controller.city": "9240 Uzwil",
-  "queensPrivacy.controller.country": "Schweiz",
   "queensPrivacy.controller.emailLabel": "E-Mail:",
   "queensPrivacy.controller.imprintPrefix": "Vollständige Anbieterangaben finden Sie im",
   "queensPrivacy.controller.imprintLink": "Impressum",
@@ -836,9 +845,6 @@ Object.assign(translations.en, {
   "queensPrivacy.controller.title": "Data controller and contact",
   "queensPrivacy.controller.company": "Wittmer AppCare, sole proprietorship",
   "queensPrivacy.controller.name": "Janine Wittmer",
-  "queensPrivacy.controller.postal": "P.O. Box 411",
-  "queensPrivacy.controller.city": "9240 Uzwil",
-  "queensPrivacy.controller.country": "Switzerland",
   "queensPrivacy.controller.emailLabel": "Email:",
   "queensPrivacy.controller.imprintPrefix": "Full publisher details are available in the",
   "queensPrivacy.controller.imprintLink": "legal notice",
@@ -1080,9 +1086,6 @@ Object.assign(translations.fr, {
   "queensPrivacy.controller.title": "Responsable du traitement et contact",
   "queensPrivacy.controller.company": "Wittmer AppCare, entreprise individuelle",
   "queensPrivacy.controller.name": "Janine Wittmer",
-  "queensPrivacy.controller.postal": "Case postale 411",
-  "queensPrivacy.controller.city": "9240 Uzwil",
-  "queensPrivacy.controller.country": "Suisse",
   "queensPrivacy.controller.emailLabel": "E-mail :",
   "queensPrivacy.controller.imprintPrefix": "Vous trouverez les informations complètes sur le fournisseur dans les",
   "queensPrivacy.controller.imprintLink": "mentions légales",
@@ -1330,9 +1333,6 @@ Object.assign(translations.it, {
   "queensPrivacy.controller.title": "Titolare del trattamento e contatto",
   "queensPrivacy.controller.company": "Wittmer AppCare, ditta individuale",
   "queensPrivacy.controller.name": "Janine Wittmer",
-  "queensPrivacy.controller.postal": "Casella postale 411",
-  "queensPrivacy.controller.city": "9240 Uzwil",
-  "queensPrivacy.controller.country": "Svizzera",
   "queensPrivacy.controller.emailLabel": "E-mail:",
   "queensPrivacy.controller.imprintPrefix": "I dati completi del fornitore sono disponibili nelle",
   "queensPrivacy.controller.imprintLink": "note legali",
