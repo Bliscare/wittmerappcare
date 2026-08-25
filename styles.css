@@ -1182,6 +1182,14 @@ h3 {
   font-weight: 760;
 }
 
+/* Die globale h1-Groesse skaliert mit der Fensterbreite. Hier steht der Titel
+   aber in einer Rasterspalte, die ab etwa 1200px nicht mehr mitwaechst - der
+   Text lief deshalb auf breiten Bildschirmen aus seiner Spalte und brach um.
+   Die kleinere Obergrenze haelt zweiwortige Titel wie "Queens Era" einzeilig. */
+.product-hero h1 {
+  font-size: clamp(50px, 6.4vw, 88px);
+}
+
 .product-hero-art {
   width: 100%;
   border-radius: 26px;
