@@ -62,6 +62,11 @@ a {
 img {
   display: block;
   max-width: 100%;
+  /* Die width/height-Attribute im HTML dienen nur als Seitenverhaeltnis gegen
+     Layout-Spruenge. Ohne height:auto wirkt das height-Attribut als feste
+     Hoehe, setzt aspect-ratio ausser Kraft und streckt das Bild. Regeln mit
+     Klassenselektor (z.B. .product-icon) ueberschreiben das weiterhin. */
+  height: auto;
 }
 
 .container {
